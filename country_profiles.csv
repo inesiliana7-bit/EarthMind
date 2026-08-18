@@ -1,0 +1,196 @@
+Country,Budget_Level,Climate,Development_Level,Technology,Water,Energy,Population_Size,Religion,Economy,Infrastructure,Government,Geography,Urbanization,Natural_Resources,Income_Level,Digitalization,Healthcare,Agriculture,Education,Political_Stability,Disaster_Risk,Carbon_Emissions
+Afghanistan,Low,Continental,Least Developed,Low,Scarce,Hydro,Medium,Islam,Agriculture,Very Low,Islamic Emirate,Mountain,Low,Minerals,Low,Very Low,Very Low,High,Very Low,Very Low,Very High,Very Low
+Albania,Medium,Mediterranean,Developing,Medium,Adequate,Hydro,Low,Islam/Christianity,Services,Medium,Republic,Mountain,Medium,Chromium,Upper-Middle,Medium,Medium,Medium,High,Medium,Medium,Low
+Algeria,Medium,Desert,Developing,Medium,Scarce,Gas/Solar,High,Islam,Diversified,Medium,Republic,Desert,High,Gas/Oil,Upper-Middle,Medium,Medium,Medium,Medium,Medium,Medium,High
+Andorra,High,Mountain,Developed,High,Adequate,Hydro,Very Low,Christianity,Tourism,High,Parliamentary Co-Principality,Mountain,High,None,High,High,High,Low,High,Very High,Low,Low
+Angola,Low,Tropical,Developing,Low,Moderate,Oil,Medium,Christianity,Oil,Low,Republic,Coast/Savanna,Medium,Oil,Lower-Middle,Low,Low,Medium,Low,Low,Medium,Medium
+Antigua and Barbuda,High,Tropical,Developing,Medium,Limited,Solar,Very Low,Christianity,Tourism,Medium,Constitutional Monarchy,Island,High,None,High,Medium,Medium,Low,High,High,Hurricanes,Low
+Argentina,Medium,Temperate,Developing,Medium,Adequate,Gas,Medium,Christianity,Agriculture,Medium,Federal Republic,Plains,High,Lithium,Upper-Middle,Medium,Medium,Very High,High,Medium,Medium,Medium
+Armenia,Medium,Continental,Developing,Medium,Moderate,Nuclear,Low,Christianity,Services,Medium,Republic,Mountain,Medium,Copper,Upper-Middle,Medium,Medium,Medium,High,Medium,Earthquake,Medium
+Australia,High,Dry,Developed,High,Moderate,Solar,Low,Christianity,Mining,Very High,Constitutional Monarchy,Island,High,Iron Ore,High,High,Very High,Medium,Very High,Very High,Wildfires,High
+Austria,High,Temperate,Developed,High,Adequate,Hydro,Low,Christianity,Industrial,Very High,Federal Republic,Mountain,High,Iron,High,High,Very High,Medium,Very High,Very High,Avalanche,Low
+Azerbaijan,Medium,Continental,Developing,Medium,Moderate,Oil/Gas,Medium,Islam,Oil,Medium,Republic,Caucasus,High,Oil/Gas,Upper-Middle,Medium,Medium,Medium,High,Medium,Earthquake,High
+Bahamas,High,Tropical,Developing,Medium,Limited,Solar,Very Low,Christianity,Tourism,High,Constitutional Monarchy,Island,High,None,High,Medium,High,Low,High,High,Hurricanes,Low
+Bahrain,High,Desert,Developed,High,Scarce,Oil/Solar,Low,Islam,Finance/Oil,High,Constitutional Monarchy,Island,Very High,Oil,High,High,High,Low,High,High,Heat Waves,High
+Bangladesh,Low,Tropical,Developing,Low,Moderate,Gas,Super High,Islam,Textiles,Low,Republic,Delta,High,Gas,Lower-Middle,Low,Low,Very High,Medium,Medium,Flood Risk,Low
+Barbados,High,Tropical,Developing,High,Limited,Solar,Very Low,Christianity,Tourism,High,Parliamentary Republic,Island,High,None,High,High,High,Low,High,Very High,Hurricanes,Low
+Belarus,Medium,Continental,Developing,Medium,Adequate,Nuclear,Medium,Christianity,Industrial,Medium,Republic,Plains,High,Potash,Upper-Middle,Medium,Medium,Medium,High,Medium,Low,Medium
+Belgium,High,Temperate,Developed,Very High,Adequate,Nuclear,Medium,Christianity,Services,Very High,Federal Monarchy,Plains,Very High,None,High,Very High,Very High,Low,Very High,Very High,Flood Risk,Medium
+Belize,Medium,Tropical,Developing,Low,Adequate,Hydro,Very Low,Christianity,Agriculture/Tourism,Low,Parliamentary Democracy,Coast,Medium,Forests,Lower-Middle,Low,Medium,High,Medium,Medium,Hurricanes,Low
+Benin,Low,Tropical,Developing,Low,Moderate,Hydro,Medium,Christianity/Islam,Agriculture,Low,Republic,Coast/Savanna,Medium,Cotton,Low,Low,Low,Very High,Low,Medium,Flood Risk,Low
+Bhutan,Medium,Mountain,Developing,Medium,Adequate,Hydro,Very Low,Buddhism,Hydropower,Medium,Constitutional Monarchy,Mountain,Low,Hydropower,Lower-Middle,Medium,Medium,Medium,High,Very High,Landslides,Very Low
+Bolivia,Low,Mountain,Developing,Low,Moderate,Gas,Medium,Christianity,Mining/Agriculture,Low,Republic,Andes,Medium,Lithium,Lower-Middle,Low,Low,High,Medium,Low,Landslides,Low
+Bosnia and Herzegovina,Medium,Continental,Developing,Medium,Adequate,Hydro,Low,Islam/Christianity,Services,Medium,Federal Republic,Mountain,Medium,Coal,Upper-Middle,Medium,Medium,Medium,High,Medium,Flood Risk,Medium
+Botswana,Medium,Dry,Developing,Medium,Scarce,Solar,Low,Christianity,Mining,Medium,Republic,Plateau,Medium,Diamonds,Upper-Middle,Medium,Medium,Medium,High,High,Drought,Low
+Brazil,Medium,Tropical,Developing,Medium,Adequate,Hydro,Very High,Christianity,Diversified,Medium,Federal Republic,Forest,High,Forests,Upper-Middle,Medium,Medium,High,Medium,Medium,Wildfires,High
+Brunei,High,Tropical,Developed,High,Adequate,Oil/Gas,Very Low,Islam,Oil,High,Monarchy,Coast,High,Oil/Gas,High,High,High,Low,High,Very High,Flood Risk,High
+Bulgaria,Medium,Temperate,Developing,Medium,Adequate,Nuclear,Medium,Christianity,Industrial,Medium,Republic,Mountain/Plains,High,Copper,Upper-Middle,Medium,High,Medium,High,Medium,Earthquake,Medium
+Burkina Faso,Low,Tropical,Least Developed,Low,Scarce,Solar,Medium,Islam/Christianity,Agriculture,Very Low,Republic,Sahel,Low,Gold,Low,Very Low,Very Low,Very High,Low,Very Low,Drought,Very Low
+Burundi,Low,Tropical,Least Developed,Very Low,Moderate,Hydro,Medium,Christianity,Agriculture,Very Low,Republic,Hills,Low,None,Low,Very Low,Very Low,Very High,Low,Low,Landslides,Very Low
+Cabo Verde,Medium,Dry,Developing,Medium,Scarce,Wind/Solar,Very Low,Christianity,Tourism,Medium,Republic,Island,High,None,Lower-Middle,Medium,Medium,Low,High,High,Drought,Low
+Cambodia,Low,Tropical,Developing,Low,Moderate,Hydro,Medium,Buddhism,Agriculture,Low,Constitutional Monarchy,Plains,Medium,Forests,Lower-Middle,Low,Low,Very High,Medium,Medium,Flood Risk,Low
+Cameroon,Low,Tropical,Developing,Low,Moderate,Hydro,High,Christianity/Islam,Agriculture/Oil,Low,Republic,Forest,Medium,Oil/Timber,Lower-Middle,Low,Low,High,Medium,Low,Flood Risk,Medium
+Canada,High,Cold,Developed,High,Adequate,Hydro,Low,Christianity,Diversified,Very High,Federal Monarchy,Large,High,Forests,High,High,Very High,Medium,Very High,Very High,Wildfires,Medium
+Central African Republic,Low,Tropical,Least Developed,Very Low,Moderate,Hydro,Low,Christianity,Agriculture,Very Low,Republic,Forest,Low,Diamonds,Low,Very Low,Very Low,High,Very Low,Very Low,Conflict,Very Low
+Chad,Low,Desert,Least Developed,Very Low,Scarce,Oil,Medium,Islam/Christianity,Agriculture/Oil,Very Low,Republic,Desert,Low,Oil,Low,Very Low,Very Low,High,Very Low,Very Low,Drought,Low
+Chile,High,Varied,Developed,High,Moderate,Solar,Medium,Christianity,Mining,High,Republic,Mountain/Coast,High,Copper,High,High,High,Medium,High,High,Earthquake,Medium
+China,High,Varied,Developing,Very High,Moderate,Coal/Renewable,Very High,Mixed,Industrial,High,Republic,Large,Very High,Rare Earths,Upper-Middle,Very High,High,High,High,High,Flood Risk,Very High
+Colombia,Medium,Tropical,Developing,Medium,Adequate,Hydro,High,Christianity,Diversified,Medium,Republic,Mountain/Forest,High,Coal/Oil,Upper-Middle,Medium,Medium,High,Medium,Medium,Landslides,Medium
+Comoros,Low,Tropical,Least Developed,Very Low,Limited,Hydro,Very Low,Islam,Agriculture,Very Low,Republic,Island,Low,None,Low,Very Low,Very Low,High,Low,Low,Cyclones,Very Low
+Congo,Low,Tropical,Developing,Low,Adequate,Hydro,Low,Christianity,Oil,Low,Republic,Forest,Medium,Oil,Lower-Middle,Low,Low,Medium,Low,Low,Flood Risk,Medium
+Costa Rica,High,Tropical,Developing,High,Adequate,Hydro,Low,Christianity,Tourism,High,Republic,Forest,High,None,High,High,High,Medium,High,Very High,Volcano,Low
+Côte d'Ivoire,Medium,Tropical,Developing,Medium,Moderate,Hydro,High,Christianity/Islam,Agriculture,Medium,Republic,Forest,High,Cocoa,Lower-Middle,Medium,Medium,Very High,Medium,Medium,Flood Risk,Medium
+Croatia,High,Mediterranean,Developed,High,Adequate,Hydro,Low,Christianity,Tourism,High,Republic,Coast/Mountain,High,None,High,High,High,Low,High,High,Earthquake,Low
+Cuba,Medium,Tropical,Developing,Medium,Moderate,Solar,Medium,Christianity,State Economy,Medium,Republic,Island,High,None,Upper-Middle,Medium,High,Medium,High,High,Hurricanes,Low
+Cyprus,High,Mediterranean,Developed,High,Scarce,Solar,Low,Christianity,Services,High,Republic,Island,High,None,High,High,High,Low,High,High,Drought,Medium
+Czech Republic,High,Temperate,Developed,High,Adequate,Nuclear,Medium,Christianity,Industrial,High,Republic,Plains,High,Coal,High,High,High,Medium,High,Very High,Flood Risk,Medium
+Democratic Republic of the Congo,Low,Tropical,Least Developed,Very Low,Adequate,Hydro,Very High,Christianity,Mining,Very Low,Republic,Forest,Low,Cobalt,Low,Very Low,Very Low,High,Very Low,Very Low,Conflict,Low
+Denmark,High,Temperate,Developed,Very High,Adequate,Wind,Low,Christianity,Services,Very High,Constitutional Monarchy,Plains,High,None,High,Very High,Very High,Medium,Very High,Very High,Flood Risk,Very Low
+Djibouti,Low,Desert,Developing,Low,Scarce,Solar,Very Low,Islam,Logistics,Low,Republic,Desert/Coast,High,None,Lower-Middle,Low,Low,Low,Medium,Medium,Drought,Low
+Dominica,Medium,Tropical,Developing,Medium,Adequate,Hydro,Very Low,Christianity,Tourism,Agriculture,Republic,Island,Medium,None,Lower-Middle,Medium,Medium,Medium,High,High,Hurricanes,Low
+Dominican Republic,Medium,Tropical,Developing,Medium,Moderate,Solar,Medium,Christianity,Tourism/Services,Medium,Republic,Island,High,None,Upper-Middle,Medium,Medium,Medium,High,Medium,Hurricanes,Medium
+Ecuador,Medium,Tropical,Developing,Medium,Adequate,Hydro,Medium,Christianity,Agriculture/Oil,Medium,Republic,Mountain/Coast,High,Oil/Bananas,Upper-Middle,Medium,Medium,High,Medium,Medium,Volcano,Medium
+Egypt,Medium,Desert,Developing,Medium,Scarce,Gas/Solar,Very High,Islam,Diversified,Medium,Republic,Desert/Nile,Very High,Gas,Lower-Middle,Medium,Medium,High,Medium,Medium,Flood Risk,High
+El Salvador,Medium,Tropical,Developing,Medium,Moderate,Geothermal,Medium,Christianity,Services,Medium,Republic,Mountain,High,None,Upper-Middle,Medium,Medium,Medium,High,Medium,Earthquake,Low
+Equatorial Guinea,High,Tropical,Developing,Low,Adequate,Oil,Very Low,Christianity,Oil,Low,Republic,Forest/Coast,Medium,Oil,Upper-Middle,Low,Low,Low,Low,Low,Flood Risk,High
+Eritrea,Low,Dry,Least Developed,Very Low,Scarce,Solar,Low,Christianity/Islam,Agriculture,Very Low,Republic,Plateau/Coast,Low,Gold,Low,Very Low,Very Low,Medium,Low,Low,Drought,Very Low
+Estonia,High,Cold,Developed,Very High,Adequate,Renewable,Low,Christianity,Digital Economy,High,Republic,Forest,High,Oil Shale,High,Very High,High,Low,Very High,Very High,Flood Risk,Low
+Eswatini,Low,Subtropical,Developing,Low,Moderate,Hydro,Low,Christianity,Agriculture,Low,Monarchy,Mountain,Medium,Forests,Lower-Middle,Low,Low,Medium,Medium,Medium,Drought,Low
+Ethiopia,Low,Tropical Highlands,Developing,Low,Moderate,Hydro,Very High,Christianity/Islam,Agriculture,Low,Federal Republic,Highlands,Medium,Coffee,Low,Low,Low,Very High,Low,Low,Drought,Very Low
+Fiji,Medium,Tropical,Developing,Medium,Adequate,Hydro,Very Low,Christianity,Tourism,Medium,Republic,Island,Medium,Forests,Upper-Middle,Medium,Medium,Low,High,High,Cyclones,Low
+Finland,High,Cold,Developed,Very High,Adequate,Nuclear/Renewable,Low,Christianity,Technology,Very High,Republic,Forest,Large Forests,Timber,High,Very High,Very High,Low,Very High,Very High,Flood Risk,Low
+France,High,Temperate,Developed,Very High,Adequate,Nuclear,High,Christianity,Diversified,Very High,Republic,Plains,Very High,None,High,Very High,Very High,Medium,Very High,Very High,Flood Risk,Medium
+Gabon,Medium,Tropical,Developing,Medium,Adequate,Oil/Hydro,Low,Christianity,Oil,Medium,Republic,Forest,Medium,Oil/Timber,Upper-Middle,Medium,Medium,Low,Medium,Medium,Flood Risk,Medium
+Gambia,Low,Tropical,Developing,Low,Moderate,Solar,Low,Islam,Agriculture/Tourism,Low,Republic,River Plains,Medium,None,Low,Low,Low,High,Low,Medium,Flood Risk,Low
+Georgia,Medium,Continental,Developing,Medium,Adequate,Hydro,Low,Christianity,Services,Medium,Republic,Mountain,Medium,Copper,Middle,Medium,Medium,Medium,High,Medium,Earthquake,Low
+Germany,High,Temperate,Developed,Very High,Adequate,Renewable,High,Christianity,Industrial,Very High,Federal Republic,Plains,Very High,Coal,High,Very High,Very High,Medium,Very High,Very High,Flood Risk,Medium
+Ghana,Medium,Tropical,Developing,Medium,Moderate,Hydro,High,Christianity,Agriculture/Mining,Medium,Republic,Coast/Savanna,High,Gold/Cocoa,Medium,Medium,Medium,High,Medium,Medium,Flood Risk,Medium
+Greece,High,Mediterranean,Developed,High,Moderate,Solar/Wind,Medium,Christianity,Tourism,High,Republic,Mountain/Islands,High,None,High,High,High,Medium,High,High,Wildfires,Medium
+Grenada,Medium,Tropical,Developing,Medium,Adequate,Solar,Very Low,Christianity,Tourism,Agriculture,Constitutional Monarchy,Island,Medium,Spices,Upper-Middle,Medium,Medium,Low,High,High,Hurricanes,Low
+Guatemala,Medium,Tropical,Developing,Low,Moderate,Hydro,High,Christianity,Agriculture,Medium,Republic,Mountain,High,None,Lower-Middle,Low,Medium,High,Medium,Medium,Volcano,Low
+Guinea,Low,Tropical,Least Developed,Very Low,Adequate,Hydro,High,Islam,Mining,Very Low,Republic,Forest,Bauxite,Low,Low,Very Low,Very Low,High,Low,Low,Flood Risk,Low
+Guinea-Bissau,Low,Tropical,Least Developed,Very Low,Adequate,Solar,Very Low,Islam/Christianity,Agriculture,Very Low,Republic,Coast,Low,None,Low,Very Low,Very Low,High,Low,Low,Flood Risk,Very Low
+Guyana,Medium,Tropical,Developing,Medium,Adequate,Oil/Hydro,Very Low,Christianity,Oil,Agriculture,Republic,Forest,Medium,Oil,Upper-Middle,Medium,Medium,Medium,High,Medium,Flood Risk,Medium
+Haiti,Low,Tropical,Least Developed,Very Low,Moderate,Solar,High,Christianity,Agriculture,Very Low,Republic,Mountain,High,None,Low,Very Low,Very Low,High,Very Low,Very Low,Earthquake/Hurricanes,Very Low
+Honduras,Low,Tropical,Developing,Low,Moderate,Hydro,Medium,Christianity,Agriculture,Low,Republic,Mountain,Medium,None,Lower-Middle,Low,Low,High,Medium,Low,Hurricanes,Low
+Hungary,High,Continental,Developed,High,Adequate,Nuclear,Medium,Christianity,Industrial,High,Republic,Plains,High,None,High,High,High,Medium,High,High,Flood Risk,Medium
+Iceland,High,Cold,Developed,Very High,Adequate,Geothermal/Hydro,Very Low,Christianity,Tourism/Fisheries,Very High,Republic,Island,High,Geothermal,High,Very High,Very High,Low,Very High,Very High,Volcano,Very Low
+India,Medium,Tropical,Developing,High,Moderate,Coal/Solar,Very High,Hinduism,Diversified,Medium,Federal Republic,Large,High,Coal,Lower-Middle,High,Medium,Very High,Medium,Medium,Flood Risk,High
+Indonesia,Medium,Tropical,Developing,Medium,Adequate,Coal/Geothermal,Very High,Islam,Diversified,Medium,Republic,Archipelago,High,Nickel,Upper-Middle,Medium,Medium,High,Medium,Medium,Volcano,Medium
+Iran,Medium,Dry,Developing,Medium,Scarce,Oil/Gas,High,Islam,Oil,Medium,Islamic Republic,Mountain/Desert,High,Oil/Gas,Upper-Middle,Medium,Medium,Medium,High,Medium,Earthquake,High
+Iraq,Medium,Desert,Developing,Low,Scarce,Oil,High,Islam,Oil,Low,Federal Republic,Desert,High,Oil,Upper-Middle,Low,Low,Medium,Medium,Low,Drought,High
+Ireland,High,Temperate,Developed,Very High,Adequate,Wind,Medium,Christianity,Technology/Services,Very High,Republic,Island,High,None,High,Very High,Very High,Medium,Very High,Very High,Flood Risk,Low
+Israel,High,Mediterranean,Developed,Very High,Scarce,Gas/Solar,Medium,Judaism,Technology,Very High,Parliamentary Republic,Coast/Desert,High,Gas,High,Very High,Very High,Low,Very High,Medium,Drought,Medium
+Italy,High,Mediterranean,Developed,Very High,Adequate,Gas/Renewable,High,Christianity,Industrial/Tourism,Very High,Republic,Mountain/Coast,Very High,None,High,Very High,Very High,Medium,Very High,High,Earthquake,Medium
+Jamaica,Medium,Tropical,Developing,Medium,Moderate,Solar,Medium,Christianity,Tourism,Medium,Constitutional Monarchy,Island,High,Bauxite,Upper-Middle,Medium,Medium,Medium,High,Medium,Hurricanes,Low
+Japan,High,Temperate,Developed,Very High,Adequate,Nuclear/Renewable,High,Shinto/Buddhism,Industrial,Very High,Constitutional Monarchy,Island,Very High,None,High,Very High,Very High,Low,Very High,Very High,Earthquake,Medium
+Jordan,Medium,Desert,Developing,Medium,Scarce,Solar,Medium,Islam,Services,Medium,Constitutional Monarchy,Desert,High,Phosphate,Upper-Middle,Medium,Medium,Low,High,High,Drought,Low
+Kazakhstan,High,Continental,Developing,High,Moderate,Oil/Gas,Medium,Islam,Oil/Mining,High,Republic,Steppe,Urban High,Oil/Uranium,Upper-Middle,High,High,Medium,High,High,Drought,High
+Kenya,Medium,Tropical,Developing,Medium,Moderate,Geothermal,High,Christianity,Agriculture/Services,Medium,Republic,Savanna,High,Tea,Lower-Middle,Medium,Medium,High,Medium,Medium,Drought,Low
+Kiribati,Low,Tropical,Developing,Low,Scarce,Solar,Very Low,Christianity,Fisheries,Low,Republic,Island,Low,None,Lower-Middle,Low,Low,Low,Medium,Medium,Sea Level Rise,Very Low
+Kuwait,High,Desert,Developed,High,Scarce,Oil,Low,Islam,Oil,High,Constitutional Monarchy,Desert,Very High,Oil,High,High,High,Low,High,High,Heat Waves,Very High
+Kyrgyzstan,Low,Mountain,Developing,Low,Adequate,Hydro,Medium,Islam,Agriculture,Low,Republic,Mountain,Medium,Gold,Lower-Middle,Low,Low,High,Medium,Medium,Landslides,Low
+Laos,Low,Tropical,Developing,Low,Adequate,Hydro,Medium,Buddhism,Hydropower,Low,Republic,Mountain,Low,Copper,Lower-Middle,Low,Low,High,Low,Medium,Flood Risk,Low
+Latvia,High,Cold,Developed,High,Adequate,Renewable,Low,Christianity,Services,High,Republic,Forest,High,Timber,High,High,High,Medium,High,Very High,Flood Risk,Low
+Lebanon,Medium,Mediterranean,Developing,Medium,Scarce,Solar,Medium,Islam/Christianity,Services,Low,Republic,Mountain/Coast,High,None,Lower-Middle,Medium,Low,Medium,High,Low,Economic Crisis,Low
+Lesotho,Low,Mountain,Developing,Low,Adequate,Hydro,Low,Christianity,Agriculture,Low,Constitutional Monarchy,Mountain,Low,Water,Lower-Middle,Low,Low,High,Medium,Medium,Drought,Very Low
+Liberia,Low,Tropical,Least Developed,Very Low,Adequate,Hydro,Medium,Christianity,Agriculture,Very Low,Republic,Forest,Medium,Iron Ore,Low,Very Low,Very Low,High,Low,Low,Flood Risk,Low
+Libya,Medium,Desert,Developing,Low,Scarce,Oil,Medium,Islam,Oil,Low,Transitional,Desert,Medium,Oil,Upper-Middle,Low,Low,Low,Low,Low,Conflict,High
+Liechtenstein,High,Alpine,Developed,Very High,Adequate,Hydro,Very Low,Christianity,Finance,Very High,Constitutional Monarchy,Mountain,High,None,High,Very High,Very High,Low,Very High,Very High,Avalanche,Very Low
+Lithuania,High,Cold,Developed,High,Adequate,Renewable,Low,Christianity,Industrial,High,Republic,Plains,High,None,High,High,High,Medium,High,Very High,Flood Risk,Low
+Luxembourg,High,Temperate,Developed,Very High,Adequate,Renewable,Very Low,Christianity,Finance,Very High,Constitutional Monarchy,Plains,Very High,None,High,Very High,Very High,Low,Very High,Very High,Flood Risk,Very Low
+Madagascar,Low,Tropical,Least Developed,Very Low,Moderate,Hydro,Super High,Christianity,Agriculture,Very Low,Republic,Island,Low,Vanilla,Low,Very Low,Very Low,Very High,Low,Low,Cyclones,Very Low
+Malawi,Low,Tropical,Least Developed,Very Low,Moderate,Hydro,High,Christianity,Agriculture,Very Low,Republic,Plateau,Low,Tobacco,Low,Very Low,Very Low,Very High,Low,Medium,Drought,Very Low
+Malaysia,High,Tropical,Developing,High,Adequate,Oil/Gas,High,Islam,Industrial,High,Constitutional Monarchy,Peninsula,High,Oil/Palm Oil,Upper-Middle,High,High,High,High,High,Flood Risk,High
+Maldives,High,Tropical,Developing,High,Scarce,Solar,Very Low,Islam,Tourism,High,Republic,Island,High,None,High,High,High,Low,High,High,Sea Level Rise,Very Low
+Mali,Low,Desert,Least Developed,Very Low,Scarce,Solar,High,Islam,Agriculture,Very Low,Republic,Sahel,Low,Gold,Low,Very Low,Very Low,Very High,Low,Very Low,Drought,Very Low
+Malta,High,Mediterranean,Developed,High,Scarce,Solar,Very Low,Christianity,Services,High,Republic,Island,Very High,None,High,High,High,Low,High,Very High,Drought,Low
+Morocco,Medium,Mediterranean,Developing,Medium,Moderate,Solar,Medium,Islam,Diversified,Medium,Constitutional Monarchy,Mountains,High,Phosphates,Lower-Middle,Medium,Medium,Medium,Medium,Medium,Drought,Medium
+Mozambique,Low,Tropical,Developing,Low,Moderate,Hydro,Medium,Christianity,Agriculture,Low,Republic,Coast,Medium,Gas,Low,Low,Low,Very High,Low,Low,Cyclones,Low
+Myanmar,Low,Tropical,Developing,Low,Moderate,Hydro,Medium,Buddhism,Agriculture,Low,Military,Mountain/Forest,Low,Natural Gas,Lower-Middle,Low,Low,High,Low,Low,Flood Risk,Low
+Mexico,High,Arid & Temperate,Developing,High,Moderate,Oil & Renewable,Very High,Christianity,Diversified,High,Federal Republic,Mountains & Plains,High,Oil & Silver,Upper-Middle,High,Medium,High,High,Medium,Earthquake & Hurricane,High
+Mauritania,Low,Desert,Developing,Low,Scarce,Oil & Gas,Low,Islam,Mining,Low,Republic,Desert,Low,Iron Ore & Gold,Lower-Middle,Low,Low,Medium,Low,Medium,Drought,Low
+Mauritius,High,Tropical,Developed,High,Adequate,Renewable & Imported,Low,Christianity & Hinduism,Services,High,Republic,Island,High,Tourism & Fisheries,High,High,High,Medium,High,High,Cyclone,Low
+Monaco,Very High,Mediterranean,Developed,Very High,Adequate,Imported,Very Low,Christianity,Finance & Tourism,Very High,Constitutional Monarchy,Coastal,Very High,Finance,High,Very High,Very High,Low,Very High,Very High,Low,Low
+Mongolia,Medium,Continental,Developing,Medium,Scarce,Coal,Low,Buddhism,Mining,Medium,Republic,Plateau & Steppe,Low,Coal & Copper,Upper-Middle,Medium,Medium,Medium,Medium,Medium,Drought & Extreme Cold,Medium
+Montenegro,High,Mediterranean,Developing,High,Adequate,Hydropower,Low,Christianity,Tourism,High,Republic,Mountains,Medium,Hydropower,High,High,High,Medium,High,High,Earthquake,Low
+Marshall Islands,Medium,Tropical,Developing,Medium,Adequate,Imported & Solar,Very Low,Christianity,Services,Medium,Republic,Island,High,Fisheries,Upper-Middle,Medium,Medium,Low,Medium,High,Sea Level Rise,Very Low
+Micronesia,Medium,Tropical,Developing,Medium,Adequate,Imported & Solar,Very Low,Christianity,Fishing,Medium,Federal Republic,Island,Low,Fisheries,Lower-Middle,Medium,Medium,Low,Medium,High,Typhoon & Sea Level Rise,Very Low
+Moldova,Medium,Continental,Developing,Medium,Adequate,Natural Gas,Medium,Christianity,Agriculture,Medium,Republic,Plains,Medium,Agriculture,Upper-Middle,Medium,Medium,High,High,Medium,Drought,Low
+Namibia,Medium,Desert,Developing,Medium,Scarce,Solar,Very Low,Christianity,Mining,Medium,Republic,Desert,Low,Diamonds,Upper-Middle,Medium,Medium,Medium,Medium,Medium,Drought,Medium
+Nauru,Medium,Tropical,Developing,Medium,Scarce,Solar,Very Low,Christianity,Services,Medium,Republic,Island,Very Low,Phosphate,High,Medium,Medium,Low,Medium,Medium,Sea Level Rise,Low
+Nepal,Low,Mountain,Developing,Low,Adequate,Hydro,Medium,Hinduism,Tourism/Agriculture,Low,Federal Republic,Mountain,Medium,Hydropower,Low,Low,Low,High,Low,Low,Earthquake,Low
+Netherlands,High,Temperate,Developed,Very High,Adequate,Wind,High,Christianity,Industrial,Very High,Constitutional Monarchy,Lowlands,Very High,None,High,Very High,Very High,Low,Very High,Very High,Flood Risk,Very High
+New Zealand,High,Temperate,Developed,Very High,Adequate,Hydro/Geothermal,Low,Christianity,Agriculture,Very High,Constitutional Monarchy,Island,Very High,Dairy,High,Very High,Very High,Low,Very High,Very High,Earthquake,Medium
+Nicaragua,Low,Tropical,Developing,Low,Moderate,Geothermal,Medium,Christianity,Agriculture,Low,Republic,Volcanic,Medium,Coffee,Lower-Middle,Low,Low,High,Medium,Low,Hurricanes,Low
+Niger,Low,Desert,Least Developed,Very Low,Scarce,Solar,High,Islam,Agriculture,Very Low,Republic,Sahel,Low,Uranium,Low,Very Low,Very Low,Very High,Low,Very Low,Drought,Very Low
+Nigeria,Medium,Tropical,Developing,Medium,Moderate,Oil/Gas,Very High,Christianity/Islam,Oil,Medium,Federal Republic,Savanna/Coast,Medium,Oil,Lower-Middle,Medium,Medium,Very High,Medium,Medium,Flood Risk,High
+North Korea,Low,Continental,Developing,Low,Moderate,Coal,Low,None,State Economy,Very Low,Single Party,Mountain,Low,Coal,Low,Very Low,Very Low,Low,Very Low,Very Low,Food Shortage,Very Low
+North Macedonia,Medium,Continental,Developing,Medium,Adequate,Hydro,Low,Christianity,Services,Medium,Republic,Mountain,Medium,None,Upper-Middle,Medium,Medium,Medium,Medium,Medium,Earthquake,Low
+Norway,Very High,Cold,Developed,Very High,Adequate,Hydro,Low,Christianity,Oil/Services,Very High,Constitutional Monarchy,Mountain/Fjords,Very High,Oil/Gas,Very High,Very High,Very High,Low,Very High,Very High,Avalanche,Very High
+Oman,High,Desert,Developing,High,Scarce,Oil/Gas,Sparse,Islam,Oil,High,Sultanate,Desert,High,Oil,High,High,High,Low,High,High,Drought,High
+Pakistan,Medium,Subtropical,Developing,Medium,Moderate,Hydro,Very High,Islam,Agriculture,Medium,Federal Republic,Mountain/Plains,Medium,Textiles,Lower-Middle,Medium,Medium,Very High,Medium,Medium,Flood Risk,Medium
+Palestine,Medium,Mediterranean,Developing,Medium,Scarce,Imported,High,Islam,Services,Medium,Parliamentary,Hills & Plains,High,Stone & Agriculture,Lower-Middle,Medium,Medium,Medium,High,Low,Conflict,Low
+Panama,High,Tropical,Developing,High,Adequate,Hydro,Medium,Christianity,Services/Canal,High,Republic,Coast,High,Canal,High,High,High,Low,High,High,Flood Risk,Medium
+Papua New Guinea,Low,Tropical,Developing,Low,Adequate,Hydro,Low,Christianity,Mining/Agriculture,Low,Constitutional Monarchy,Mountain/Forest,Low,Gold,Lower-Middle,Low,Low,High,Low,Low,Earthquake,Low
+Paraguay,Medium,Subtropical,Developing,Medium,Adequate,Hydro,Low,Christianity,Agriculture,Medium,Republic,Plains,Medium,Soybeans,Upper-Middle,Medium,Medium,Medium,Medium,Medium,Flood Risk,Medium
+Peru,Medium,Tropical/Andes,Developing,Medium,Adequate,Hydro,Medium,Christianity,Mining,Agriculture,Republic,Mountain/Coast,High,Copper,Upper-Middle,Medium,Medium,Medium,Medium,Medium,Earthquake,Medium
+Philippines,Medium,Tropical,Developing,Medium,Adequate,Geothermal,Very High,Christianity,Services,Medium,Republic,Archipelago,High,Electronics,Lower-Middle,Medium,Medium,Very High,Medium,Medium,Typhoons,Medium
+Poland,High,Continental,Developed,High,Adequate,Coal/Renewable,High,Christianity,Industrial,High,Republic,Plains,High,Coal,High,High,High,Medium,High,High,Flood Risk,Medium
+Portugal,High,Mediterranean,Developed,High,Adequate,Renewable,Medium,Christianity,Tourism,High,Republic,Coast,High,Cork,High,High,High,Medium,High,High,Wildfires,Medium
+Qatar,Very High,Desert,Developed,Very High,Scarce,Gas,Sparse,Islam,Gas,Very High,Monarchy,Desert,Very High,Gas,Very High,Very High,Very High,Low,Very High,High,Heat Waves,Very High
+Romania,High,Continental,Developed,High,Adequate,Hydro/Nuclear,Medium,Christianity,Industrial,Agriculture,Republic,Mountain/Plains,High,Natural Gas,High,High,High,Medium,High,High,Flood Risk,Medium
+Russia,High,Cold,Developed,High,Adequate,Oil/Gas/Nuclear,Medium,Christianity,Energy/Industry,High,Federal Republic,Plains/Tundra,Very High,Oil/Gas,High,High,High,Medium,High,High,Wildfires,Very High
+Rwanda,Medium,Tropical Highlands,Developing,Medium,Moderate,Hydro,High,Christianity,Agriculture/Services,Medium,Republic,Hills,Medium,Coffee,Lower-Middle,Medium,Medium,Medium,High,Medium,Landslides,Low
+Saint Kitts and Nevis,High,Tropical,Developing,High,Adequate,Solar,Very Low,Christianity,Tourism,High,Constitutional Monarchy,Island,Medium,None,High,High,High,Low,High,High,Hurricanes,Low
+Saint Lucia,High,Tropical,Developing,High,Adequate,Solar,Very Low,Christianity,Tourism,High,Constitutional Monarchy,Island,Medium,None,High,High,High,Low,High,High,Hurricanes,Low
+Saint Vincent and the Grenadines,Medium,Tropical,Developing,Medium,Adequate,Solar,Very Low,Christianity,Tourism,Agriculture,Constitutional Monarchy,Island,Medium,None,Upper-Middle,Medium,Medium,Low,High,High,Volcano,Low
+Samoa,Medium,Tropical,Developing,Medium,Adequate,Solar,Very Low,Christianity,Tourism,Medium,Republic,Island,Medium,None,Upper-Middle,Medium,Medium,Low,High,High,Cyclones,Low
+San Marino,Very High,Temperate,Developed,Very High,Adequate,Renewable,Very Low,Christianity,Services,Very High,Republic,Hills,High,None,Very High,Very High,Very High,Low,Very High,Very High,None,Very Low
+Sao Tome and Principe,Medium,Tropical,Developing,Medium,Adequate,Hydro,Very Low,Christianity,Agriculture,Medium,Republic,Island,Medium,Cocoa,Lower-Middle,Medium,Medium,Low,Medium,Medium,Flood Risk,Low
+Saudi Arabia,Very High,Desert,Developed,High,Scarce,Oil,Sparse,Islam,Oil,Very High,Monarchy,Desert,High,Oil,Very High,High,High,Low,High,High,Heat Waves,Very High
+Senegal,Medium,Tropical,Developing,Medium,Moderate,Solar,Medium,Islam,Agriculture,Medium,Republic,Coast,Medium,Phosphate,Lower-Middle,Medium,Medium,Medium,Medium,Medium,Drought,Low
+Serbia,High,Continental,Developing,High,Adequate,Coal/Hydro,Medium,Christianity,Industrial,Agriculture,Republic,Plains,High,Copper,Upper-Middle,High,High,Medium,High,High,Flood Risk,Medium
+Seychelles,Very High,Tropical,Developing,High,Adequate,Solar,Very Low,Christianity,Tourism,High,Republic,Island,Medium,Fisheries,High,High,High,Low,High,High,Sea Level Rise,Low
+Sierra Leone,Low,Tropical,Least Developed,Very Low,Adequate,Hydro,Medium,Christianity/Islam,Mining,Very Low,Republic,Forest,Medium,Diamonds,Low,Very Low,Very Low,High,Low,Low,Flood Risk,Low
+Singapore,Very High,Tropical,Developed,Very High,Scarce,Solar,Very High,Buddhism/Christianity,Technology/Finance,Very High,Republic,Urban,None,None,Very High,Very High,Very High,Low,Very High,Very High,Sea Level Rise,Very High
+Slovakia,High,Continental,Developed,High,Adequate,Nuclear,Medium,Christianity,Industrial,High,Republic,Mountain,High,Cars,High,High,High,Medium,High,High,Flood Risk,Medium
+Slovenia,Very High,Continental,Developed,Very High,Adequate,Hydro,Low,Christianity,Industrial,Very High,Republic,Mountain,High,None,High,Very High,Very High,Low,Very High,Very High,Flood Risk,Medium
+Solomon Islands,Low,Tropical,Developing,Low,Adequate,Solar,Very Low,Christianity,Fisheries,Low,Constitutional Monarchy,Island,Low,Timber,Lower-Middle,Low,Low,Low,Medium,Medium,Cyclones,Low
+Somalia,Low,Arid,Least Developed,Very Low,Scarce,Solar,High,Islam,Agriculture,Very Low,Federal Republic,Desert,Low,Livestock,Low,Very Low,Very Low,Very High,Very Low,Very Low,Drought,Very Low
+South Africa,High,Subtropical,Developing,High,Moderate,Coal,High,Christianity,Mining/Industry,High,Republic,Plateau,High,Gold,Upper-Middle,High,High,Medium,High,High,Drought,High
+South Korea,Very High,Temperate,Developed,Very High,Adequate,Nuclear,Very High,Christianity/Buddhism,Technology,Very High,Republic,Mountain,Very High,Electronics,Very High,Very High,Very High,Low,Very High,Very High,Flood Risk,Very High
+South Sudan,Low,Tropical,Least Developed,Very Low,Moderate,Oil,Low,Christianity,Oil,Agriculture,Republic,Swamps,Low,Oil,Low,Very Low,Very Low,Very High,Very Low,Very Low,Flood Risk,Very Low
+Spain,Very High,Mediterranean,Developed,Very High,Moderate,Renewable,High,Christianity,Tourism,Industry,Constitutional Monarchy,Plains,High,None,High,Very High,Very High,Medium,Very High,High,Wildfires,High
+Sri Lanka,Medium,Tropical,Developing,Medium,Adequate,Hydro,High,Buddhism,Tourism,Agriculture,Republic,Island,High,Tea,Upper-Middle,Medium,Medium,Medium,Medium,Medium,Flood Risk,Medium
+Sudan,Low,Desert,Least Developed,Very Low,Scarce,Solar,Medium,Islam,Agriculture,Very Low,Republic,Desert,Low,Gold,Low,Very Low,Very Low,Very High,Very Low,Very Low,Drought,Very Low
+Suriname,Medium,Tropical,Developing,Medium,Adequate,Hydro,Very Low,Christianity,Hinduism,Mining,Republic,Forest,Low,Gold,Upper-Middle,Medium,Medium,Low,Medium,Medium,Flood Risk,Low
+Sweden,Very High,Cold,Developed,Very High,Adequate,Hydro/Nuclear,High,Christianity,Technology,Very High,Constitutional Monarchy,Forest,Very High,None,Very High,Very High,Very High,Low,Very High,Very High,Wildfires,Very High
+Switzerland,Very High,Alpine,Developed,Very High,Adequate,Hydro,Medium,Christianity,Finance,Very High,Federal Republic,Mountain,Very High,None,Very High,Very High,Very High,Low,Very High,Very High,Avalanche,Very High
+Syria,Low,Arid,Developing,Very Low,Scarce,Oil,Low,Islam,Agriculture,Very Low,Republic,Desert,Low,Oil,Low,Very Low,Very Low,Low,Very Low,Very Low,Conflict,Very Low
+Taiwan,Very High,Subtropical,Developed,Very High,Adequate,Gas/Renewable,Very High,Buddhism,Technology,Very High,Republic,Island,High,Semiconductors,Very High,Very High,Very High,Low,Very High,Very High,Earthquake,Very High
+Tajikistan,Low,Mountain,Developing,Low,Adequate,Hydro,Medium,Islam,Agriculture,Low,Republic,Mountain,Low,Aluminium,Low,Low,Low,High,Low,Low,Landslides,Low
+Tanzania,Low,Tropical,Developing,Low,Moderate,Hydro,Medium,Christianity/Islam,Agriculture,Low,Republic,Savanna,Medium,Gold,Lower-Middle,Low,Low,High,Medium,Low,Drought,Low
+Thailand,High,Tropical,Developing,High,Adequate,Gas,High,Buddhism,Tourism/Industry,High,Constitutional Monarchy,Plains,High,Rice,Upper-Middle,High,High,Medium,High,High,Flood Risk,High
+Timor-Leste,Low,Tropical,Developing,Low,Moderate,Oil,Very Low,Christianity,Oil,Low,Republic,Mountain,Low,Oil,Lower-Middle,Low,Low,Medium,Low,Low,Flood Risk,Low
+Togo,Low,Tropical,Developing,Low,Moderate,Solar,Medium,Christianity/Islam,Agriculture,Low,Republic,Coast,Medium,Phosphate,Low,Low,Low,High,Low,Low,Flood Risk,Low
+Tonga,Medium,Tropical,Developing,Medium,Adequate,Solar,Very Low,Christianity,Tourism,Medium,Monarchy,Island,Medium,None,Upper-Middle,Medium,Medium,Low,High,High,Volcano,Low
+Trinidad and Tobago,High,Tropical,Developed,High,Adequate,Gas,Low,Christianity,Energy,High,Republic,Island,Medium,Gas,High,High,High,Low,High,High,Flood Risk,Medium
+Tunisia,Medium,Mediterranean,Developing,Medium,Scarce,Solar,Medium,Islam,Tourism,Medium,Republic,Coast,High,Phosphate,Upper-Middle,Medium,Medium,Medium,High,Medium,Drought,Medium
+Turkey,High,Mediterranean,Developing,High,Moderate,Gas/Hydro,High,Islam,Industrial,Tourism,Republic,Mountain,High,None,Upper-Middle,High,High,Medium,High,High,Earthquake,High
+Turkmenistan,Medium,Desert,Developing,Medium,Scarce,Gas,Low,Islam,Gas,Medium,Republic,Desert,Low,Gas,Upper-Middle,Medium,Medium,Low,Medium,Medium,Drought,High
+Tuvalu,Low,Tropical,Developing,Low,Scarce,Solar,Very Low,Christianity,Fisheries,Low,Constitutional Monarchy,Island,Low,None,Lower-Middle,Low,Low,Low,Medium,Medium,Sea Level Rise,Very Low
+Uganda,Low,Tropical,Developing,Low,Moderate,Hydro,Medium,Christianity,Agriculture,Low,Republic,Lakes,Medium,Coffee,Low,Low,Low,High,Low,Low,Drought,Low
+Ukraine,Medium,Continental,Developing,Medium,Adequate,Nuclear,Medium,Christianity,Agriculture,Industry,Republic,Plains,High,Grain,Upper-Middle,Medium,Medium,Medium,Medium,Medium,Conflict,Medium
+United Arab Emirates,Very High,Desert,Developed,Very High,Scarce,Oil/Solar,Sparse,Islam,Services,Very High,Federal Monarchy,Desert,Very High,Oil,Very High,Very High,Very High,Low,Very High,Very High,Heat Waves,Very High
+United Kingdom,Very High,Temperate,Developed,Very High,Adequate,Wind/Nuclear,Very High,Christianity,Services,Very High,Constitutional Monarchy,Island,Very High,None,Very High,Very High,Very High,Low,Very High,Very High,Flood Risk,Very High
+United States,Very High,Varied,Developed,Very High,Adequate,Gas/Nuclear/Renewable,Very High,Christianity,Diversified,Very High,Federal Republic,Large,Very High,Technology,Very High,Very High,Very High,Low,Very High,Very High,Wildfires,Very High
+Uruguay,Very High,Temperate,Developed,High,Adequate,Renewable,Low,Christianity,Agriculture,High,Republic,Plains,High,Beef,High,High,High,Low,High,High,Flood Risk,Medium
+Uzbekistan,Medium,Continental,Developing,Medium,Scarce,Gas,Medium,Islam,Agriculture,Medium,Republic,Desert,Medium,Gas,Lower-Middle,Medium,Medium,Medium,Medium,Medium,Drought,Medium
+Vanuatu,Low,Tropical,Developing,Low,Adequate,Solar,Very Low,Christianity,Tourism,Low,Republic,Island,Low,None,Lower-Middle,Low,Low,Low,Medium,Medium,Cyclones,Low
+Vatican City,Very High,Temperate,Developed,Very High,Adequate,None,Very Low,Christianity,Services,Very High,Monarchy,Urban,None,None,Very High,Very High,Very High,Low,Very High,Very High,None,Very Low
+Venezuela,Medium,Tropical,Developing,Medium,Moderate,Oil,Medium,Christianity,Oil,Medium,Republic,Coast,Medium,Oil,Lower-Middle,Medium,Medium,Medium,Medium,Low,Economic Crisis,Medium
+Vietnam,Medium,Tropical,Developing,High,Adequate,Hydro,High,Buddhism,Manufacturing,High,Republic,Coast,High,Rice,Upper-Middle,High,High,Medium,High,High,Flood Risk,Medium
+Yemen,Low,Desert,Least Developed,Very Low,Scarce,Solar,Medium,Islam,Agriculture,Very Low,Republic,Mountain,Low,None,Low,Very Low,Very Low,Very High,Very Low,Very Low,Drought,Very Low
+Zambia,Low,Tropical,Developing,Low,Moderate,Hydro,Medium,Christianity,Mining,Low,Republic,Plateau,Medium,Copper,Lower-Middle,Low,Low,High,Low,Low,Drought,Low
+Zimbabwe,Low,Tropical,Developing,Low,Moderate,Hydro,Medium,Christianity,Agriculture/Mining,Low,Republic,Plateau,Medium,Gold,Lower-Middle,Low,Low,High,Low,Low,Drought,Low

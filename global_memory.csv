@@ -1,0 +1,288 @@
+Country_EN,Country_AR,Problem_EN,Problem_AR,Solution_EN,Solution_AR,Success_Rate,Implementation_Years,Sector_EN,Sector_AR
+Singapore,سنغافورة,Water Scarcity,ندرة المياه,Desalination and Water Recycling,تحلية المياه وإعادة تدويرها,98,15,Water,المياه
+Netherlands,هولندا,Flood Risk,خطر الفيضانات,Delta Works Flood Protection,مشروع دلتا للحماية من الفيضانات,99,20,Infrastructure,البنية التحتية
+Japan,اليابان,Earthquake,الزلازل,Earthquake Resistant Buildings,المباني المقاومة للزلازل,98,25,Construction,البناء
+South Korea,كوريا الجنوبية,Air Pollution,تلوث الهواء,Smart Air Monitoring System,نظام ذكي لمراقبة جودة الهواء,93,6,Environment,البيئة
+Germany,ألمانيا,Renewable Energy,الطاقة المتجددة,Energiewende Program,برنامج التحول الطاقوي,96,18,Energy,الطاقة
+Sweden,السويد,Waste Management,إدارة النفايات,Advanced Recycling System,نظام متقدم لإعادة التدوير,97,12,Environment,البيئة
+Denmark,الدنمارك,Wind Energy,طاقة الرياح,Offshore Wind Farms,مزارع الرياح البحرية,97,15,Energy,الطاقة
+Australia,أستراليا,Wildfires,حرائق الغابات,Early Fire Detection System,نظام الكشف المبكر عن الحرائق,94,8,Environment,البيئة
+India,الهند,Food Security,الأمن الغذائي,Smart Agriculture,الزراعة الذكية,92,7,Agriculture,الزراعة
+Norway,النرويج,Renewable Energy,الطاقة المتجددة,Hydropower Development,تطوير الطاقة الكهرومائية,98,20,Energy,الطاقة
+Finland,فنلندا,Education,التعليم,Digital Education System,نظام التعليم الرقمي,97,10,Education,التعليم
+Canada,كندا,Wildfires,حرائق الغابات,Satellite Fire Monitoring,مراقبة الحرائق بالأقمار الصناعية,95,8,Environment,البيئة
+Switzerland,سويسرا,Healthcare,الرعاية الصحية,Universal Healthcare System,نظام الرعاية الصحية الشامل,98,18,Health,الصحة
+France,فرنسا,Waste Management,إدارة النفايات,Circular Economy Strategy,استراتيجية الاقتصاد الدائري,94,12,Environment,البيئة
+United Kingdom,المملكة المتحدة,Flood Risk,خطر الفيضانات,Flood Barrier System,حواجز الحماية من الفيضانات,96,14,Infrastructure,البنية التحتية
+United States,الولايات المتحدة,Cybersecurity,الأمن السيبراني,National Cyber Defense,الدفاع السيبراني الوطني,95,7,Technology,التكنولوجيا
+China,الصين,Air Pollution,تلوث الهواء,Industrial Emission Control,التحكم في الانبعاثات الصناعية,91,10,Environment,البيئة
+Brazil,البرازيل,Deforestation,إزالة الغابات,Forest Protection Program,برنامج حماية الغابات,89,12,Environment,البيئة
+Morocco,المغرب,Renewable Energy,الطاقة المتجددة,Solar Power Plants,محطات الطاقة الشمسية,94,9,Energy,الطاقة
+Egypt,مصر,Water Scarcity,ندرة المياه,Wastewater Reuse,إعادة استخدام مياه الصرف,89,8,Water,المياه
+United Arab Emirates,الإمارات العربية المتحدة,Water Scarcity,ندرة المياه,Large Scale Desalination,التحلية واسعة النطاق,97,12,Water,المياه
+Saudi Arabia,المملكة العربية السعودية,Water Scarcity,ندرة المياه,Strategic Desalination Network,شبكة التحلية الاستراتيجية,96,12,Water,المياه
+Qatar,قطر,Water Scarcity,ندرة المياه,Smart Water Management,الإدارة الذكية للمياه,94,8,Water,المياه
+Spain,إسبانيا,Drought,الجفاف,Integrated Water Management,الإدارة المتكاملة للمياه,93,11,Water,المياه
+Portugal,البرتغال,Wildfires,حرائق الغابات,Forest Surveillance Network,شبكة مراقبة الغابات,91,7,Environment,البيئة
+Italy,إيطاليا,Earthquake,الزلازل,Seismic Building Codes,معايير البناء المقاومة للزلازل,95,20,Construction,البناء
+New Zealand,نيوزيلندا,Earthquake,الزلازل,Seismic Infrastructure Program,برنامج البنية التحتية المقاومة للزلازل,97,15,Construction,البناء
+Belgium,بلجيكا,Flood Risk,خطر الفيضانات,Integrated River Management,الإدارة المتكاملة للأنهار,92,12,Infrastructure,البنية التحتية
+Austria,النمسا,Avalanche Risk,خطر الانهيارات الثلجية,Avalanche Monitoring System,نظام مراقبة الانهيارات الثلجية,95,9,Environment,البيئة
+Iceland,آيسلندا,Renewable Energy,الطاقة المتجددة,Geothermal Energy,الطاقة الحرارية الجوفية,99,18,Energy,الطاقة
+Ireland,أيرلندا,Digital Government,الحكومة الرقمية,E-Government Services,الخدمات الحكومية الرقمية,95,6,Technology,التكنولوجيا
+Estonia,إستونيا,Cybersecurity,الأمن السيبراني,E-Governance Security,أمن الحكومة الإلكترونية,99,8,Technology,التكنولوجيا
+Luxembourg,لوكسمبورغ,Digital Economy,الاقتصاد الرقمي,National Digital Strategy,الاستراتيجية الرقمية الوطنية,96,7,Technology,التكنولوجيا
+Chile,تشيلي,Earthquake,الزلازل,National Seismic Standards,المعايير الوطنية لمقاومة الزلازل,98,18,Construction,البناء
+Peru,بيرو,Landslides,الانهيارات الأرضية,Slope Stabilization Program,برنامج تثبيت المنحدرات,90,9,Infrastructure,البنية التحتية
+Mexico,المكسيك,Earthquake,الزلازل,Earthquake Early Warning System,نظام الإنذار المبكر للزلازل,97,10,Construction,البناء
+South Africa,جنوب إفريقيا,Water Scarcity,ندرة المياه,Smart Water Distribution,التوزيع الذكي للمياه,88,8,Water,المياه
+Kenya,كينيا,Drought,الجفاف,Rainwater Harvesting,حصاد مياه الأمطار,89,7,Water,المياه
+Singapore,سنغافورة,Cybersecurity,الأمن السيبراني,Smart National Cyber Defense,الدفاع السيبراني الذكي,99,6,Technology,التكنولوجيا
+Nigeria,نيجيريا,Food Security,الأمن الغذائي,Climate Smart Agriculture,الزراعة الذكية مناخيًا,88,8,Agriculture,الزراعة
+Ethiopia,إثيوبيا,Drought,الجفاف,Irrigation Expansion,توسيع شبكات الري,87,10,Water,المياه
+Rwanda,رواندا,Healthcare,الرعاية الصحية,Community Health System,نظام الصحة المجتمعية,95,8,Health,الصحة
+Uganda,أوغندا,Food Security,الأمن الغذائي,Modern Farming Techniques,تقنيات الزراعة الحديثة,86,7,Agriculture,الزراعة
+Ghana,غانا,Waste Management,إدارة النفايات,Urban Recycling Program,برنامج إعادة التدوير الحضري,89,7,Environment,البيئة
+Senegal,السنغال,Water Scarcity,ندرة المياه,Solar Water Pumps,مضخات المياه بالطاقة الشمسية,88,6,Water,المياه
+Tunisia,تونس,Water Scarcity,ندرة المياه,Efficient Irrigation Systems,أنظمة الري عالية الكفاءة,90,7,Water,المياه
+Algeria,الجزائر,Desertification,التصحر,Great Green Dam,السد الأخضر,90,20,Environment,البيئة
+Libya,ليبيا,Water Scarcity,ندرة المياه,Great Man-Made River,النهر الصناعي العظيم,91,18,Water,المياه
+Namibia,ناميبيا,Drought,الجفاف,Water Conservation Strategy,استراتيجية المحافظة على المياه,92,9,Water,المياه
+Botswana,بوتسوانا,Drought,الجفاف,National Water Management,الإدارة الوطنية للمياه,91,9,Water,المياه
+Zimbabwe,زيمبابوي,Food Security,الأمن الغذائي,Drought Resistant Crops,محاصيل مقاومة للجفاف,86,7,Agriculture,الزراعة
+Zambia,زامبيا,Food Security,الأمن الغذائي,Smart Irrigation Systems,أنظمة الري الذكية,87,7,Agriculture,الزراعة
+India,الهند,Air Pollution,تلوث الهواء,Clean Air Mission,مهمة الهواء النظيف,90,8,Environment,البيئة
+Pakistan,باكستان,Flood Risk,خطر الفيضانات,Flood Early Warning System,نظام الإنذار المبكر للفيضانات,88,8,Infrastructure,البنية التحتية
+Bangladesh,بنغلاديش,Flood Risk,خطر الفيضانات,Floating Agriculture,الزراعة العائمة,94,9,Agriculture,الزراعة
+Indonesia,إندونيسيا,Earthquake,الزلازل,Tsunami Warning System,نظام الإنذار بالتسونامي,95,10,Disaster Management,إدارة الكوارث
+Philippines,الفلبين,Typhoon,الأعاصير,Disaster Preparedness Program,برنامج الاستعداد للكوارث,94,8,Disaster Management,إدارة الكوارث
+Vietnam,فيتنام,Flood Risk,خطر الفيضانات,River Basin Management,إدارة أحواض الأنهار,91,8,Infrastructure,البنية التحتية
+Thailand,تايلاند,Food Security,الأمن الغذائي,Precision Agriculture,الزراعة الدقيقة,90,7,Agriculture,الزراعة
+Malaysia,ماليزيا,Digital Economy,الاقتصاد الرقمي,Digital Transformation Plan,خطة التحول الرقمي,94,6,Technology,التكنولوجيا
+South Korea,كوريا الجنوبية,Cybersecurity,الأمن السيبراني,National Cyber Shield,الدرع الوطني السيبراني,98,7,Technology,التكنولوجيا
+Japan,اليابان,Climate Change,التغير المناخي,Carbon Neutral Strategy,استراتيجية الحياد الكربوني,95,20,Environment,البيئة
+China,الصين,Renewable Energy,الطاقة المتجددة,Solar Energy Expansion,التوسع في الطاقة الشمسية,95,15,Energy,الطاقة
+Turkey,تركيا,Earthquake,الزلازل,Urban Seismic Renewal,تجديد المدن لمقاومة الزلازل,93,15,Construction,البناء
+Greece,اليونان,Wildfires,حرائق الغابات,Forest Fire Prevention,الوقاية من حرائق الغابات,91,7,Environment,البيئة
+Croatia,كرواتيا,Flood Risk,خطر الفيضانات,River Protection System,نظام حماية الأنهار,90,8,Infrastructure,البنية التحتية
+Poland,بولندا,Air Pollution,تلوث الهواء,Clean Heating Program,برنامج التدفئة النظيفة,92,8,Environment,البيئة
+Czech Republic,التشيك,Waste Management,إدارة النفايات,National Recycling Policy,السياسة الوطنية لإعادة التدوير,93,8,Environment,البيئة
+Romania,رومانيا,Forest Protection,حماية الغابات,National Forest Monitoring,المراقبة الوطنية للغابات,91,9,Environment,البيئة
+Argentina,الأرجنتين,Agricultural Productivity,الإنتاجية الزراعية,Precision Farming,الزراعة الدقيقة,94,8,Agriculture,الزراعة
+Uruguay,أوروغواي,Livestock Management,إدارة الثروة الحيوانية,Smart Livestock Monitoring,المراقبة الذكية للماشية,95,7,Agriculture,الزراعة
+Paraguay,باراغواي,Food Security,الأمن الغذائي,Sustainable Farming,الزراعة المستدامة,88,8,Agriculture,الزراعة
+Bolivia,بوليفيا,Water Scarcity,ندرة المياه,Mountain Water Reservoirs,خزانات المياه الجبلية,87,9,Water,المياه
+Chile,شيليا,Drought,الجفاف,Desalination for Agriculture,تحلية المياه للزراعة,93,10,Water,المياه
+Colombia,كولومبيا,Biodiversity Loss,فقدان التنوع البيولوجي,Protected Natural Areas,المناطق الطبيعية المحمية,92,10,Environment,البيئة
+Costa Rica,كوستاريكا,Biodiversity Loss,فقدان التنوع البيولوجي,Eco-Tourism Conservation,السياحة البيئية للحفاظ على الطبيعة,98,12,Environment,البيئة
+Panama,بنما,Flood Risk,خطر الفيضانات,Urban Drainage Improvement,تطوير شبكات تصريف المياه,89,8,Infrastructure,البنية التحتية
+Peru,بيرو,Water Scarcity,ندرة المياه,Glacier Water Management,إدارة مياه الأنهار الجليدية,90,10,Water,المياه
+Ecuador,الإكوادور,Forest Protection,حماية الغابات,Amazon Conservation Program,برنامج حماية الأمازون,91,10,Environment,البيئة
+Mexico,المكسيك,Air Pollution,تلوث الهواء,Urban Clean Transport,النقل الحضري النظيف,92,8,Transport,النقل
+United States,الولايات المتحدة,Wildfires,حرائق الغابات,AI Fire Prediction,التنبؤ بالحرائق بالذكاء الاصطناعي,96,6,Technology,التكنولوجيا
+Canada,كندا,Climate Change,التغير المناخي,National Climate Strategy,الاستراتيجية الوطنية للمناخ,95,15,Environment,البيئة
+Iceland,آيسلندا,Climate Change,التغير المناخي,Carbon Capture Technology,تقنيات احتجاز الكربون,98,12,Environment,البيئة
+Finland,فنلندا,Cybersecurity,الأمن السيبراني,National Cyber Center,المركز الوطني للأمن السيبراني,97,6,Technology,التكنولوجيا
+Norway,النرويج,Electric Mobility,التنقل الكهربائي,Electric Vehicle Incentives,تشجيع السيارات الكهربائية,98,10,Transport,النقل
+Sweden,السويد,Climate Change,التغير المناخي,Green Industry Program,برنامج الصناعة الخضراء,97,12,Environment,البيئة
+Denmark,الدنمارك,Carbon Emissions,انبعاثات الكربون,Carbon Neutral Cities,مدن محايدة كربونيًا,98,15,Environment,البيئة
+Germany,ألمانيا,Cybersecurity,الأمن السيبراني,Industrial Cyber Protection,حماية الأمن السيبراني الصناعي,96,8,Technology,التكنولوجيا
+France,فرنسا,Climate Change,التغير المناخي,Green Transition Plan,خطة التحول الأخضر,95,15,Environment,البيئة
+Italy,إيطاليا,Flood Risk,خطر الفيضانات,Smart River Monitoring,المراقبة الذكية للأنهار,91,8,Infrastructure,البنية التحتية
+Spain,إسبانيا,Renewable Energy,الطاقة المتجددة,Solar Energy Expansion,التوسع في الطاقة الشمسية,97,10,Energy,الطاقة
+Portugal,البرتغال,Renewable Energy,الطاقة المتجددة,Green Hydrogen Program,برنامج الهيدروجين الأخضر,95,12,Energy,الطاقة
+Belgium,بلجيكا,Digital Government,الحكومة الرقمية,Integrated Digital Services,الخدمات الرقمية المتكاملة,95,6,Technology,التكنولوجيا
+Netherlands,هولندا,Smart Agriculture,الزراعة الذكية,AI Crop Monitoring,مراقبة المحاصيل بالذكاء الاصطناعي,98,7,Agriculture,الزراعة
+Austria,النمسا,Renewable Energy,الطاقة المتجددة,Hydroelectric Expansion,توسيع الطاقة الكهرومائية,96,12,Energy,الطاقة
+Switzerland,سويسرا,Disaster Management,إدارة الكوارث,Integrated Risk Management,الإدارة المتكاملة للمخاطر,97,8,Safety,السلامة
+Ireland,أيرلندا,Digital Economy,الاقتصاد الرقمي,Innovation Strategy,استراتيجية الابتكار,95,6,Technology,التكنولوجيا
+Estonia,إستونيا,Digital Identity,الهوية الرقمية,National Digital Identity,الهوية الرقمية الوطنية,99,5,Technology,التكنولوجيا
+Luxembourg,لوكسمبورغ,Financial Technology,التكنولوجيا المالية,Digital Banking System,النظام المصرفي الرقمي,96,5,Finance,المالية
+South Korea,كوريا الجنوبية,Traffic Congestion,الازدحام المروري,Smart Traffic Management,الإدارة الذكية لحركة المرور,97,6,Transport,النقل
+Singapore,سنغافورة,Traffic Congestion,الازدحام المروري,Electronic Road Pricing,التسعير الإلكتروني للطرق,99,5,Transport,النقل
+Japan,اليابان,Aging Population,شيخوخة السكان,Elderly Care Technology,تقنيات رعاية كبار السن,96,8,Health,الصحة
+Germany,ألمانيا,Industrial Pollution,التلوث الصناعي,Clean Manufacturing,التصنيع النظيف,95,10,Industry,الصناعة
+France,فرنسا,Urban Mobility,التنقل الحضري,Green Public Transport,النقل العمومي الأخضر,94,8,Transport,النقل
+China,الصين,Urbanization,التوسع الحضري,Smart Cities,المدن الذكية,95,10,Urban Development,التنمية الحضرية
+India,الهند,Digital Inclusion,الشمول الرقمي,National Digital Identity,الهوية الرقمية الوطنية,93,7,Technology,التكنولوجيا
+Brazil,البرازيل,Public Health,الصحة العامة,Family Health Program,برنامج صحة الأسرة,91,9,Health,الصحة
+Australia,أستراليا,Water Management,إدارة المياه,Integrated Water Planning,التخطيط المتكامل للمياه,95,10,Water,المياه
+Canada,كندا,Renewable Energy,الطاقة المتجددة,National Clean Energy Plan,الخطة الوطنية للطاقة النظيفة,96,12,Energy,الطاقة
+Finland,فنلندا,Artificial Intelligence,الذكاء الاصطناعي,National AI Strategy,الاستراتيجية الوطنية للذكاء الاصطناعي,98,6,Technology,التكنولوجيا
+Estonia,إستونيا,E-Government,الحكومة الإلكترونية,Digital Public Services,الخدمات الحكومية الرقمية,99,5,Technology,التكنولوجيا
+United Arab Emirates,الإمارات العربية المتحدة,Artificial Intelligence,الذكاء الاصطناعي,National AI Strategy,الاستراتيجية الوطنية للذكاء الاصطناعي,97,6,Technology,التكنولوجيا
+Saudi Arabia,المملكة العربية السعودية,Digital Transformation,التحول الرقمي,Vision 2030 Digital Programs,برامج التحول الرقمي لرؤية 2030,95,8,Technology,التكنولوجيا
+Morocco,المغرب,Water Management,إدارة المياه,Dam Management Strategy,استراتيجية إدارة السدود,92,10,Water,المياه
+Algeria,الجزائر,Renewable Energy,الطاقة المتجددة,Solar Energy Development,تطوير الطاقة الشمسية,90,12,Energy,الطاقة
+Tunisia,تونس,Digital Economy,الاقتصاد الرقمي,Startup Ecosystem Support,دعم منظومة الشركات الناشئة,91,6,Technology,التكنولوجيا
+Egypt,مصر,Food Security,الأمن الغذائي,National Greenhouse Agriculture,الزراعة المحمية الوطنية,90,8,Agriculture,الزراعة
+Qatar,قطر,Smart Cities,المدن الذكية,Integrated Smart Infrastructure,البنية التحتية الذكية المتكاملة,96,7,Urban Development,التنمية الحضرية
+Norway,النرويج,Carbon Emissions,انبعاثات الكربون,Carbon Storage Projects,مشاريع تخزين الكربون,98,12,Environment,البيئة
+Ireland,أيرلندا,Cybersecurity,الأمن السيبراني,National Cyber Strategy,الاستراتيجية الوطنية للأمن السيبراني,96,6,Technology,التكنولوجيا
+Switzerland,سويسرا,Banking Security,الأمن المصرفي,Secure Financial Infrastructure,البنية التحتية المالية الآمنة,98,7,Finance,المالية
+Belgium,بلجيكا,Healthcare,الرعاية الصحية,Integrated Hospital Network,شبكة المستشفيات المتكاملة,95,9,Health,الصحة
+Mexico,المكسيك,Crime Prevention,الوقاية من الجريمة,Smart Surveillance Systems,أنظمة المراقبة الذكية,89,7,Security,الأمن
+Chile,تشيلي,Mining Sustainability,استدامة التعدين,Sustainable Mining Technologies,تقنيات التعدين المستدام,94,10,Industry,الصناعة
+Argentina,الأرجنتين,Economic Crisis,أزمة اقتصادية,Economic Stabilization Plan,خطة الاستقرار الاقتصادي,88,8,Economy,الاقتصاد
+South Africa,جنوب إفريقيا,Electricity Crisis,أزمة الكهرباء,Solar and Wind Expansion,التوسع في الطاقة الشمسية والرياح,90,10,Energy,الطاقة
+Kenya,كينيا,Digital Payments,المدفوعات الرقمية,Mobile Payment Ecosystem,منظومة الدفع عبر الهاتف,96,5,Finance,المالية
+Rwanda,رواندا,Digital Health,الصحة الرقمية,Electronic Health Records,السجلات الصحية الإلكترونية,95,6,Health,الصحة
+New Zealand,نيوزيلندا,Climate Resilience,القدرة على التكيف مع المناخ,National Climate Adaptation Plan,الخطة الوطنية للتكيف المناخي,97,10,Environment,البيئة
+Malaysia,ماليزيا,Smart Cities,المدن الذكية,Integrated Smart City Platform,منصة المدن الذكية المتكاملة,95,7,Technology,التكنولوجيا
+Indonesia,إندونيسيا,Tsunami,التسونامي,Tsunami Early Warning System,نظام الإنذار المبكر بالتسونامي,96,8,Disaster Management,إدارة الكوارث
+Philippines,الفلبين,Flood Risk,خطر الفيضانات,Flood Forecasting System,نظام التنبؤ بالفيضانات,93,7,Infrastructure,البنية التحتية
+Vietnam,فيتنام,Climate Change,التغير المناخي,Climate Adaptation Strategy,استراتيجية التكيف المناخي,92,9,Environment,البيئة
+Thailand,تايلاند,Tourism Sustainability,استدامة السياحة,Sustainable Tourism Program,برنامج السياحة المستدامة,91,6,Tourism,السياحة
+Nepal,نيبال,Earthquake,الزلازل,Earthquake Preparedness Program,برنامج الاستعداد للزلازل,92,8,Construction,البناء
+Bhutan,بوتان,Forest Protection,حماية الغابات,National Forest Conservation,الحفاظ الوطني على الغابات,98,12,Environment,البيئة
+Sri Lanka,سريلانكا,Flood Risk,خطر الفيضانات,River Basin Protection,حماية أحواض الأنهار,90,8,Infrastructure,البنية التحتية
+Pakistan,باكستان,Heat Waves,موجات الحر,Heat Action Plan,خطة مواجهة موجات الحر,89,6,Health,الصحة
+Bangladesh,بنغلاديش,Cyclones,الأعاصير,Community Cyclone Shelters,ملاجئ الأعاصير المجتمعية,97,9,Disaster Management,إدارة الكوارث
+Kazakhstan,كازاخستان,Renewable Energy,الطاقة المتجددة,Wind Energy Expansion,التوسع في طاقة الرياح,91,10,Energy,الطاقة
+Uzbekistan,أوزبكستان,Water Scarcity,ندرة المياه,Efficient Irrigation Network,شبكة الري الفعالة,89,8,Water,المياه
+Kyrgyzstan,قيرغيزستان,Landslides,الانهيارات الأرضية,Slope Monitoring System,نظام مراقبة المنحدرات,88,7,Infrastructure,البنية التحتية
+Tajikistan,طاجيكستان,Hydropower,الطاقة الكهرومائية,Hydropower Development,تطوير الطاقة الكهرومائية,92,12,Energy,الطاقة
+Mongolia,منغوليا,Desertification,التصحر,Grassland Restoration,استعادة المراعي,90,10,Environment,البيئة
+Cambodia,كمبوديا,Food Security,الأمن الغذائي,Rice Productivity Program,برنامج رفع إنتاج الأرز,88,7,Agriculture,الزراعة
+Laos,لاوس,Hydropower,الطاقة الكهرومائية,Hydroelectric Expansion,توسيع الطاقة الكهرومائية,91,11,Energy,الطاقة
+Myanmar,ميانمار,Cyclones,الأعاصير,Disaster Response Network,شبكة الاستجابة للكوارث,87,7,Disaster Management,إدارة الكوارث
+Brunei,بروناي,Digital Government,الحكومة الرقمية,E-Government Platform,منصة الحكومة الإلكترونية,95,5,Technology,التكنولوجيا
+Maldives,المالديف,Sea Level Rise,ارتفاع مستوى البحر,Coastal Protection Program,برنامج حماية السواحل,94,10,Environment,البيئة
+Cuba,كوبا,Hurricanes,الأعاصير,National Hurricane Preparedness,الاستعداد الوطني للأعاصير,98,8,Disaster Management,إدارة الكوارث
+Jamaica,جامايكا,Hurricanes,الأعاصير,Storm Preparedness Plan,خطة الاستعداد للعواصف,92,7,Disaster Management,إدارة الكوارث
+Dominican Republic,جمهورية الدومينيكان,Flood Risk,خطر الفيضانات,Urban Flood Control,التحكم الحضري في الفيضانات,89,7,Infrastructure,البنية التحتية
+Costa Rica,كوستاريكا,Renewable Energy,الطاقة المتجددة,100 Percent Renewable Electricity,الكهرباء المتجددة بالكامل,99,15,Energy,الطاقة
+Guatemala,غواتيمالا,Volcanoes,البراكين,Volcano Monitoring Network,شبكة مراقبة البراكين,91,8,Disaster Management,إدارة الكوارث
+Honduras,هندوراس,Food Security,الأمن الغذائي,Rural Agriculture Support,دعم الزراعة الريفية,87,7,Agriculture,الزراعة
+El Salvador,السلفادور,Earthquake,الزلازل,Seismic Safety Standards,معايير السلامة الزلزالية,90,10,Construction,البناء
+Nicaragua,نيكاراغوا,Hurricanes,الأعاصير,Early Warning Network,شبكة الإنذار المبكر,89,7,Disaster Management,إدارة الكوارث
+Panama,بنما,Logistics,الخدمات اللوجستية,Smart Port Management,الإدارة الذكية للموانئ,95,6,Transport,النقل
+Paraguay,باراغواي,Renewable Energy,الطاقة المتجددة,Hydroelectric Optimization,تحسين الطاقة الكهرومائية,96,10,Energy,الطاقة
+Uruguay,أوروغواي,Wind Energy,طاقة الرياح,National Wind Program,البرنامج الوطني لطاقة الرياح,98,10,Energy,الطاقة
+Venezuela,فنزويلا,Electricity Crisis,أزمة الكهرباء,Grid Modernization,تحديث شبكة الكهرباء,85,9,Energy,الطاقة
+Guyana,غيانا,Forest Protection,حماية الغابات,Sustainable Forest Management,الإدارة المستدامة للغابات,92,9,Environment,البيئة
+Suriname,سورينام,Biodiversity Loss,فقدان التنوع البيولوجي,Rainforest Conservation,حماية الغابات المطيرة,94,10,Environment,البيئة
+Mali,مالي,Desertification,التصحر,Anti Desertification Program,برنامج مكافحة التصحر,87,9,Environment,البيئة
+Niger,النيجر,Water Scarcity,ندرة المياه,Groundwater Development,تطوير المياه الجوفية,86,8,Water,المياه
+Mauritania,موريتانيا,Desertification,التصحر,Sand Stabilization Projects,مشاريع تثبيت الرمال,88,9,Environment,البيئة
+Somalia,الصومال,Drought,الجفاف,Emergency Water Supply,الإمداد الطارئ بالمياه,84,5,Water,المياه
+Sudan,السودان,Food Security,الأمن الغذائي,Irrigated Agriculture,الزراعة المروية,86,8,Agriculture,الزراعة
+South Sudan,جنوب السودان,Food Security,الأمن الغذائي,Agricultural Recovery Program,برنامج التعافي الزراعي,83,7,Agriculture,الزراعة
+Cameroon,الكاميرون,Flood Risk,خطر الفيضانات,Integrated Flood Management,الإدارة المتكاملة للفيضانات,89,8,Infrastructure,البنية التحتية
+Congo,الكونغو,Forest Protection,حماية الغابات,Tropical Forest Conservation,حماية الغابات الاستوائية,94,10,Environment,البيئة
+Gabon,الغابون,Biodiversity Loss,فقدان التنوع البيولوجي,National Parks Network,شبكة المتنزهات الوطنية,97,10,Environment,البيئة
+Madagascar,مدغشقر,Biodiversity Loss,فقدان التنوع البيولوجي,Species Conservation Program,برنامج حماية الأنواع,95,9,Environment,البيئة
+Seychelles,سيشل,Marine Protection,حماية البيئة البحرية,Marine Protected Areas,المناطق البحرية المحمية,98,8,Environment,البيئة
+Mauritius,موريشيوس,Coastal Erosion,تآكل السواحل,Coastal Defense Program,برنامج حماية السواحل,94,8,Environment,البيئة
+Fiji,فيجي,Climate Change,التغير المناخي,Climate Resilience Plan,خطة الصمود المناخي,95,9,Environment,البيئة
+Samoa,ساموا,Cyclones,الأعاصير,National Cyclone Response,الاستجابة الوطنية للأعاصير,93,7,Disaster Management,إدارة الكوارث
+Tonga,تونغا,Tsunami,التسونامي,Tsunami Preparedness Program,برنامج الاستعداد للتسونامي,94,8,Disaster Management,إدارة الكوارث
+Vanuatu,فانواتو,Volcanoes,البراكين,Volcano Risk Monitoring,مراقبة مخاطر البراكين,92,8,Disaster Management,إدارة الكوارث
+Papua New Guinea,بابوا غينيا الجديدة,Landslides,الانهيارات الأرضية,Geological Monitoring,المراقبة الجيولوجية,89,7,Infrastructure,البنية التحتية
+Solomon Islands,جزر سليمان,Sea Level Rise,ارتفاع مستوى البحر,Island Protection Strategy,استراتيجية حماية الجزر,91,9,Environment,البيئة
+Kiribati,كيريباس,Sea Level Rise,ارتفاع مستوى البحر,Climate Migration Planning,التخطيط للهجرة المناخية,93,10,Environment,البيئة
+Tuvalu,توفالو,Sea Level Rise,ارتفاع مستوى البحر,National Adaptation Plan,الخطة الوطنية للتكيف,92,10,Environment,البيئة
+Nauru,ناورو,Water Scarcity,ندرة المياه,Rainwater Harvesting Systems,أنظمة حصاد مياه الأمطار,90,6,Water,المياه
+Palau,بالاو,Marine Protection,حماية البيئة البحرية,Ocean Conservation Program,برنامج حماية المحيطات,97,8,Environment,البيئة
+Micronesia,ميكرونيزيا,Climate Change,التغير المناخي,Island Climate Strategy,استراتيجية المناخ للجزر,91,9,Environment,البيئة
+Afghanistan,أفغانستان,Terrorism,الإرهاب,National Counterterrorism Strategy,استراتيجية وطنية لمكافحة الإرهاب,95,12,Security,الأمن
+Ukraine,أوكرانيا,Armed Conflict,النزاعات المسلحة,Peace Negotiations and International Mediation,المفاوضات السلمية والوساطة الدولية,94,15,Security,الأمن
+Argentina,الأرجنتين,Inflation,التضخم,Monetary Stabilization Program,برنامج الاستقرار النقدي,92,8,Economy,الاقتصاد
+South Africa,جنوب إفريقيا,Unemployment,البطالة,National Employment and Skills Development Program,برنامج وطني للتشغيل وتنمية المهارات,93,10,Economy,الاقتصاد
+Myanmar,ميانمار,Political Instability,عدم الاستقرار السياسي,National Dialogue and Democratic Reform,الحوار الوطني والإصلاح الديمقراطي,91,12,Governance,الحوكمة
+Sudan,السودان,Humanitarian Crisis,الأزمة الإنسانية,Emergency Humanitarian Response Plan,خطة استجابة إنسانية طارئة,95,6,Humanitarian,العمل الإنساني
+Lebanon,لبنان,Financial Crisis,الأزمة المالية,Banking Sector Reform and Economic Recovery,إصلاح القطاع المصرفي والتعافي الاقتصادي,92,9,Economy,الاقتصاد
+Germany,ألمانيا,Energy Security,أمن الطاقة,Diversified Energy Supply Strategy,استراتيجية تنويع مصادر الطاقة,94,10,Energy,الطاقة
+Japan,اليابان,Supply Chain Disruption,اضطراب سلاسل الإمداد,Smart Supply Chain Resilience Program,برنامج ذكي لتعزيز مرونة سلاسل الإمداد,92,7,Logistics,اللوجستيات
+Türkiye,تركيا,Refugee Crisis,أزمة اللاجئين,Integrated Refugee Support and Reintegration Program,برنامج متكامل لدعم وإعادة إدماج اللاجئين,93,8,Humanitarian,العمل الإنساني
+Sweden,السويد,Mental Health,الصحة النفسية,National Mental Health Strategy,الاستراتيجية الوطنية للصحة النفسية,96,8,Healthcare,الصحة
+Canada,كندا,Drug Trafficking,تهريب المخدرات,Integrated Border Drug Control System,نظام متكامل لمكافحة تهريب المخدرات عبر الحدود,92,9,Security,الأمن
+Italy,إيطاليا,Organized Crime,الجريمة المنظمة,National Anti-Mafia Program,البرنامج الوطني لمكافحة المافيا,95,15,Security,الأمن
+Australia,أستراليا,Housing Crisis,أزمة السكن,Affordable Housing Development Program,برنامج تطوير الإسكان الميسر,91,10,Housing,الإسكان
+Norway,النرويج,Public Debt,الدين العام,Sustainable Fiscal Management Strategy,استراتيجية الإدارة المالية المستدامة,94,9,Economy,الاقتصاد
+South Korea,كوريا الجنوبية,Data Privacy,خصوصية البيانات,National Data Protection Framework,الإطار الوطني لحماية البيانات,96,6,Technology,التكنولوجيا
+Estonia,إستونيا,Misinformation,التضليل الإعلامي,National Digital Literacy Program,البرنامج الوطني لمحو الأمية الرقمية,94,5,Technology,التكنولوجيا
+Denmark,الدنمارك,Energy Transition,الانتقال الطاقوي,Green Energy Transition Strategy,استراتيجية التحول إلى الطاقة الخضراء,98,12,Energy,الطاقة
+Switzerland,سويسرا,Banking Security,أمن القطاع المصرفي,Advanced Financial Security Framework,إطار متقدم لأمن القطاع المالي,97,8,Finance,المالية
+Brazil,البرازيل,Illegal Mining,التعدين غير القانوني,Satellite-Based Illegal Mining Monitoring,مراقبة التعدين غير القانوني بالأقمار الصناعية,94,9,Environment,البيئة
+Japan,اليابان,Infrastructure Failure,فشل البنية التحتية,Smart Infrastructure Rehabilitation and Predictive Maintenance,إعادة تأهيل البنية التحتية الذكية والصيانة التنبؤية,94,8,Infrastructure,البنية التحتية
+Germany,ألمانيا,Road Safety,السلامة المرورية,Vision Zero Road Safety Strategy,استراتيجية الرؤية صفر للسلامة المرورية,96,10,Transportation,النقل
+Netherlands,هولندا,Traffic Congestion,الازدحام المروري,Integrated Smart Mobility System,نظام التنقل الذكي المتكامل,93,7,Transportation,النقل
+Singapore,سنغافورة,Bridge Safety,سلامة الجسور,AI Bridge Structural Monitoring,المراقبة الذكية للجسور بالذكاء الاصطناعي,95,5,Infrastructure,البنية التحتية
+South Korea,كوريا الجنوبية,Railway Infrastructure,البنية التحتية للسكك الحديدية,High-Speed Rail Modernization,تحديث البنية التحتية للسكك الحديدية,95,9,Transportation,النقل
+France,فرنسا,Public Transport,النقل العمومي,Integrated Public Transport Network,شبكة النقل العمومي المتكاملة,94,8,Transportation,النقل
+Switzerland,سويسرا,Tunnel Safety,سلامة الأنفاق,Smart Tunnel Monitoring System,نظام المراقبة الذكية للأنفاق,96,6,Infrastructure,البنية التحتية
+Norway,النرويج,Road Infrastructure,البنية التحتية للطرق,Resilient Road Infrastructure Program,برنامج الطرق المقاومة للمخاطر,94,8,Transportation,النقل
+Canada,كندا,Bridge Collapse,انهيار الجسور,Bridge Inspection and Reinforcement Program,برنامج فحص وتعزيز الجسور,95,6,Infrastructure,البنية التحتية
+United Kingdom,المملكة المتحدة,Aging Infrastructure,تقادم البنية التحتية,National Infrastructure Renewal Program,البرنامج الوطني لتجديد البنية التحتية,93,10,Infrastructure,البنية التحتية
+Australia,أستراليا,Airport Infrastructure,البنية التحتية للمطارات,Smart Airport Modernization,تحديث المطارات الذكية,94,7,Transportation,النقل
+China,الصين,Port Infrastructure,البنية التحتية للموانئ,Smart Port Digitalization,رقمنة الموانئ الذكية,95,6,Transportation,النقل
+Spain,إسبانيا,Water Infrastructure,البنية التحتية للمياه,National Water Infrastructure Upgrade,تحديث البنية التحتية للمياه,92,9,Water,المياه
+Finland,فنلندا,Digital Infrastructure,البنية التحتية الرقمية,National Digital Infrastructure Expansion,توسيع البنية التحتية الرقمية,96,5,Digital,الرقمنة
+United States,الولايات المتحدة,Power Grid Failure,انهيار شبكة الكهرباء,Smart Grid Modernization,تحديث الشبكات الكهربائية الذكية,94,8,Energy,الطاقة
+Italy,إيطاليا,Historic Infrastructure Preservation,حماية البنية التحتية التاريخية,Infrastructure Restoration and Monitoring,ترميم ومراقبة البنية التحتية,91,8,Infrastructure,البنية التحتية
+Denmark,الدنمارك,Cycling Infrastructure,البنية التحتية للدراجات,National Cycling Infrastructure Plan,الخطة الوطنية للبنية التحتية للدراجات,95,6,Transportation,النقل
+United Arab Emirates,الإمارات العربية المتحدة,Urban Infrastructure,البنية التحتية الحضرية,Smart City Infrastructure Program,برنامج البنية التحتية للمدن الذكية,95,7,Infrastructure,البنية التحتية
+Sweden,السويد,Winter Road Maintenance,صيانة الطرق الشتوية,Intelligent Winter Road Management,الإدارة الذكية للطرق الشتوية,94,5,Transportation,النقل
+Austria,النمسا,Landslide Infrastructure Protection,حماية البنية التحتية من الانهيارات الأرضية,Infrastructure Risk Protection System,نظام حماية البنية التحتية من المخاطر,93,7,Infrastructure,البنية التحتية
+Germany,ألمانيا,Critical Infrastructure Failure,فشل البنية التحتية الحرجة,National Critical Infrastructure Protection,حماية البنية التحتية الحرجة,95,8,Infrastructure,البنية التحتية
+Singapore,سنغافورة,Urban Infrastructure Failure,فشل البنية التحتية الحضرية,Integrated Smart Infrastructure Program,برنامج البنية التحتية الذكية المتكاملة,94,7,Infrastructure,البنية التحتية
+Netherlands,هولندا,Flood Infrastructure Damage,أضرار البنية التحتية بسبب الفيضانات,Climate-Resilient Infrastructure,بنية تحتية مقاومة للمناخ,95,10,Infrastructure,البنية التحتية
+South Korea,كوريا الجنوبية,Transport Infrastructure Failure,فشل بنية النقل التحتية,National Transport Modernization Program,برنامج تحديث النقل الوطني,94,8,Transportation,النقل
+Canada,كندا,Water Infrastructure Failure,فشل البنية التحتية للمياه,Smart Water Infrastructure Renewal,تجديد البنية التحتية الذكية للمياه,93,9,Water,المياه
+United States,الولايات المتحدة,Power Infrastructure Failure,فشل البنية التحتية للطاقة,Smart Grid Recovery Program,برنامج استعادة الشبكات الذكية,94,8,Energy,الطاقة
+France,فرنسا,Rail Infrastructure Failure,فشل البنية التحتية للسكك الحديدية,Rail Infrastructure Renewal,تجديد البنية التحتية للسكك الحديدية,94,8,Transportation,النقل
+Australia,أستراليا,Airport Infrastructure Failure,فشل البنية التحتية للمطارات,Airport Modernization Strategy,استراتيجية تحديث المطارات,93,7,Transportation,النقل
+China,الصين,Logistics Infrastructure Failure,فشل البنية التحتية اللوجستية,National Logistics Modernization,تحديث البنية التحتية اللوجستية,95,7,Logistics,اللوجستيات
+Japan,اليابان,Infrastructure Failure,فشل البنية التحتية,National Infrastructure Modernization Program,برنامج تحديث البنية التحتية الوطنية,92,12,Infrastructure,البنية التحتية
+Netherlands,هولندا,Bridge Collapse,انهيار الجسور,Smart Bridge Monitoring System,نظام ذكي لمراقبة الجسور,94,6,Infrastructure,البنية التحتية
+Singapore,سنغافورة,Railway Failure,تعطل شبكة السكك الحديدية,Predictive Rail Maintenance,الصيانة التنبؤية للسكك الحديدية,95,5,Transport,النقل
+Germany,ألمانيا,Road Safety,سلامة الطرق,Vision Zero Road Safety Strategy,استراتيجية صفر وفيات على الطرق,96,8,Transport,النقل
+Japan,اليابان,Public Transport Congestion,ازدحام النقل العمومي,Integrated Smart Mobility System,نظام التنقل الذكي المتكامل,93,7,Transport,النقل
+France,فرنسا,Bridge Maintenance,تدهور صيانة الجسور,Digital Infrastructure Inspection,الفحص الرقمي للبنية التحتية,92,6,Infrastructure,البنية التحتية
+Canada,كندا,Power Grid Failure,انهيار شبكة الكهرباء,National Smart Grid Upgrade,تحديث الشبكة الكهربائية الذكية,95,10,Energy,الطاقة
+South Korea,كوريا الجنوبية,Internet Infrastructure Failure,تعطل البنية التحتية الرقمية,National Network Resilience Program,برنامج مرونة الشبكات الوطنية,94,5,Digital,الرقمي
+Australia,أستراليا,Port Congestion,ازدحام الموانئ,Smart Port Logistics,الخدمات اللوجستية الذكية للموانئ,91,6,Logistics,اللوجستيات
+United Arab Emirates,الإمارات العربية المتحدة,Airport Congestion,ازدحام المطارات,AI Airport Flow Management,إدارة تدفق المطارات بالذكاء الاصطناعي,92,5,Aviation,الطيران
+Norway,النرويج,Tunnel Safety,سلامة الأنفاق,Intelligent Tunnel Safety System,نظام ذكي لسلامة الأنفاق,94,7,Transport,النقل
+Finland,فنلندا,Critical Infrastructure Protection,حماية البنية التحتية الحيوية,Critical Infrastructure Resilience Strategy,استراتيجية مرونة البنية التحتية الحيوية,95,8,Security,الأمن
+Switzerland,سويسرا,Landslide Damage to Infrastructure,أضرار الانهيارات الأرضية للبنية التحتية,Resilient Mountain Infrastructure,بنية تحتية جبلية مرنة,93,9,Infrastructure,البنية التحتية
+Denmark,الدنمارك,Cycling Infrastructure,ضعف البنية التحتية للدراجات,National Cycling Network Expansion,توسيع شبكة الدراجات الوطنية,91,6,Transport,النقل
+Sweden,السويد,Winter Road Management,إدارة الطرق الشتوية,Smart Winter Road Management,الإدارة الذكية للطرق الشتوية,93,5,Transport,النقل
+United Kingdom,المملكة المتحدة,Aging Infrastructure,تقادم البنية التحتية,National Infrastructure Renewal Plan,الخطة الوطنية لتجديد البنية التحتية,94,12,Infrastructure,البنية التحتية
+China,الصين,Urban Infrastructure Pressure,ضغط البنية التحتية الحضرية,Integrated Urban Infrastructure Expansion,التوسع المتكامل للبنية التحتية الحضرية,92,10,Urban Development,التنمية الحضرية
+Spain,إسبانيا,Water Infrastructure Failure,فشل البنية التحتية للمياه,Smart Water Infrastructure Program,برنامج البنية التحتية الذكية للمياه,93,8,Water,المياه
+Italy,إيطاليا,Historic Infrastructure Preservation,تدهور البنية التحتية التاريخية,Infrastructure Restoration Initiative,مبادرة ترميم البنية التحتية,91,9,Infrastructure,البنية التحتية
+United States,الولايات المتحدة,Critical Transportation Failure,فشل منظومة النقل الحيوية,National Transportation Resilience Program,برنامج مرونة النقل الوطني,94,9,Transport,النقل
+Japan,اليابان,Infrastructure Failure,فشل البنية التحتية,Smart Infrastructure Rehabilitation,إعادة تأهيل البنية التحتية الذكية,91,8,Infrastructure,البنية التحتية
+Singapore,سنغافورة,Bridge Collapse,انهيار الجسور,Bridge Structural Monitoring System,نظام المراقبة الذكية للجسور,95,4,Infrastructure,البنية التحتية
+Netherlands,هولندا,Railway Failure,تعطل السكك الحديدية,Smart Railway Modernization,تحديث السكك الحديدية الذكي,93,6,Transport,النقل
+South Korea,كوريا الجنوبية,Metro Congestion,ازدحام المترو,Integrated Smart Public Transport,النقل العمومي الذكي المتكامل,90,5,Transport,النقل
+Germany,ألمانيا,Road Safety Crisis,أزمة السلامة المرورية,Vision Zero Road Safety Strategy,استراتيجية صفر وفيات مرورية,94,7,Transport,النقل
+Norway,النرويج,Tunnel Safety,سلامة الأنفاق,Automated Tunnel Monitoring,المراقبة الآلية للأنفاق,92,5,Infrastructure,البنية التحتية
+United Kingdom,المملكة المتحدة,Airport Congestion,ازدحام المطارات,Smart Airport Operations,تشغيل المطارات الذكي,91,5,Aviation,الطيران
+Canada,كندا,Power Grid Failure,انهيار شبكة الكهرباء,National Smart Grid Upgrade,تحديث الشبكة الكهربائية الذكية,95,8,Energy,الطاقة
+Denmark,الدنمارك,Port Congestion,ازدحام الموانئ,AI Smart Port Management,إدارة الموانئ بالذكاء الاصطناعي,92,4,Logistics,اللوجستيات
+Australia,أستراليا,Supply Shortage,نقص الإمدادات,Critical Supply Chain Resilience,تعزيز مرونة سلاسل الإمداد,91,6,Logistics,اللوجستيات
+Sweden,السويد,Emergency Response Delay,بطء الاستجابة للطوارئ,Integrated Emergency Response System,نظام الاستجابة المتكامل للطوارئ,94,4,Emergency,الطوارئ
+Finland,فنلندا,Communication Network Failure,فشل شبكات الاتصالات,Resilient National Communication Network,شبكة اتصالات وطنية مرنة,93,5,Technology,التكنولوجيا
+Estonia,إستونيا,Digital Infrastructure Failure,فشل البنية التحتية الرقمية,National Digital Infrastructure Upgrade,تحديث البنية التحتية الرقمية الوطنية,95,5,Technology,التكنولوجيا
+France,فرنسا,Public Transport Disruption,تعطل النقل العمومي,Integrated Mobility Recovery Plan,خطة استعادة النقل المتكاملة,91,4,Transport,النقل
+Switzerland,سويسرا,Rail Accident Risk,مخاطر حوادث السكك الحديدية,AI Railway Safety Management,إدارة سلامة السكك الحديدية بالذكاء الاصطناعي,94,5,Transport,النقل
+New Zealand,نيوزيلندا,Landslide Infrastructure Damage,أضرار البنية التحتية بسبب الانهيارات الأرضية,Resilient Mountain Infrastructure,بنية تحتية جبلية مرنة,92,7,Infrastructure,البنية التحتية
+Italy,إيطاليا,Historic Infrastructure Decay,تدهور البنية التحتية التاريخية,Infrastructure Preservation Program,برنامج الحفاظ على البنية التحتية,90,8,Infrastructure,البنية التحتية
+Spain,إسبانيا,Water Distribution Failure,فشل شبكات توزيع المياه,Smart Water Distribution Network,شبكات توزيع مياه ذكية,92,6,Water,المياه
+United Arab Emirates,الإمارات العربية المتحدة,Urban Infrastructure Overload,الضغط على البنية التحتية الحضرية,Smart Urban Expansion,التوسع الحضري الذكي,93,7,Urban Development,التنمية الحضرية
+China,الصين,Industrial Infrastructure Failure,فشل البنية التحتية الصناعية,Industrial Infrastructure Modernization,تحديث البنية التحتية الصناعية,94,8,Industry,الصناعة
+Canada,كندا,Migration Crisis,أزمة الهجرة,Comprehensive Migration Management Program,برنامج الإدارة الشاملة للهجرة,92,6,Migration,الهجرة
+Germany,ألمانيا,Illegal Migration,الهجرة غير الشرعية,Integrated Border and Migration Strategy,استراتيجية متكاملة لإدارة الحدود والهجرة,90,5,Migration,الهجرة
+Turkey,تركيا,Refugee Integration,دمج اللاجئين,National Refugee Integration Framework,الإطار الوطني لدمج اللاجئين,91,8,Migration,الهجرة
+Sweden,السويد,Asylum System Overload,ضغط على نظام اللجوء,Digital Asylum Processing System,نظام رقمي لمعالجة طلبات اللجوء,89,4,Migration,الهجرة
+Italy,إيطاليا,Irregular Migration,الهجرة غير النظامية,Mediterranean Migration Coordination Program,برنامج تنسيق الهجرة في البحر المتوسط,90,6,Migration,الهجرة
+Spain,إسبانيا,Border Migration Pressure,الضغط الحدودي بسبب الهجرة,Smart Border Migration Management,الإدارة الذكية للهجرة الحدودية,91,5,Migration,الهجرة
+Australia,أستراليا,Skilled Labor Shortage,نقص العمالة الماهرة,National Skilled Migration Program,البرنامج الوطني للهجرة الماهرة,94,5,Labor,العمل
+Japan,اليابان,Aging Workforce,شيخوخة القوى العاملة,Targeted Skilled Immigration Policy,سياسة الهجرة الموجهة للعمالة الماهرة,93,7,Labor,العمل
+United States,الولايات المتحدة,Mass Migration,الهجرة الجماعية,Comprehensive Immigration Reform,إصلاح شامل لنظام الهجرة,90,8,Migration,الهجرة
+Jordan,الأردن,Refugee Population Pressure,الضغط الناتج عن أعداد اللاجئين,Sustainable Refugee Support Strategy,استراتيجية مستدامة لدعم اللاجئين,91,7,Humanitarian,العمل الإنساني
+Greece,اليونان,Migration Reception Crisis,أزمة استقبال المهاجرين,Integrated Reception and Relocation System,نظام متكامل للاستقبال وإعادة التوطين,89,5,Migration,الهجرة
+France,فرنسا,Migrant Social Integration,اندماج المهاجرين اجتماعياً,Inclusive Social Integration Program,برنامج الاندماج الاجتماعي الشامل,92,6,Social Affairs,الشؤون الاجتماعية

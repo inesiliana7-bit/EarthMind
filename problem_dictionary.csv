@@ -1,0 +1,103 @@
+Problem_EN,Problem_AR,Keywords_EN,Keywords_AR,Sector_EN,Sector_AR,Priority
+Water Scarcity,ندرة المياه,"water;drought;drinking water;desalination;reservoir","مياه;جفاف;تحلية;سد;مياه الشرب",Environment,البيئة,5
+Floods,الفيضانات,"flood;flooding;overflow;heavy rain;flash flood","فيضان;فيضانات;سيول;أمطار غزيرة",Environment,البيئة,5
+Wildfires,حرائق الغابات,"wildfire;forest fire;bushfire","حرائق الغابات;حريق غابات",Environment,البيئة,5
+Earthquake,الزلازل,"earthquake;seismic;richter;aftershock","زلزال;هزة أرضية;ريختر",Disaster,الكوارث,5
+Volcano,البراكين,"volcano;eruption;volcanoes;lava;ash cloud","بركان;ثوران;حمم;رماد بركاني",Disaster,الكوارث,5
+Climate Change,التغير المناخي,"climate;global warming;emissions;carbon","مناخ;احتباس حراري;انبعاثات;كربون",Environment,البيئة,5
+Pollution,التلوث,"pollution;air pollution;water pollution;contamination;toxic","تلوث;تلوث الهواء;تلوث المياه;ملوثات",Environment,البيئة,4
+Food Security,الأمن الغذائي,"food;famine;hunger;crop;agriculture","غذاء;مجاعة;جوع;محاصيل;زراعة",Agriculture,الزراعة,5
+Pandemic,الأوبئة,"pandemic;virus;epidemic;outbreak;infection","وباء;فيروس;تفشي;عدوى",Health,الصحة,5
+Energy Crisis,أزمة الطاقة,"energy;electricity;blackout;gas;fuel;power outage","طاقة;كهرباء;انقطاع الكهرباء;غاز;وقود",Energy,الطاقة,4
+Cybersecurity,الأمن السيبراني,"cyber;hacker;malware;ransomware;cyberattack;data breach","هجوم سيبراني;اختراق;فيروس;برمجيات خبيثة;قرصنة",Technology,التكنولوجيا,5
+Economic Crisis,الأزمة الاقتصادية,"inflation;economy;recession;debt;financial crisis;gdp","اقتصاد;تضخم;ركود;ديون;أزمة مالية",Economy,الاقتصاد,5
+Unemployment,البطالة,"unemployment;jobless;layoffs;employment","بطالة;عاطل;تسريح العمال;التوظيف",Economy,الاقتصاد,4
+Housing Crisis,أزمة السكن,"housing;rent;real estate;homeless","سكن;إيجار;عقارات;مشردين",Urban Development,التنمية الحضرية,4
+Traffic Congestion,الازدحام المروري,"traffic;congestion;road;transport;jam","ازدحام;مرور;طرق;مواصلات",Transport,النقل,3
+Waste Management,إدارة النفايات,"waste;garbage;landfill;recycling;plastic waste","نفايات;قمامة;إعادة التدوير;بلاستيك",Environment,البيئة,4
+Deforestation,إزالة الغابات,"deforestation;logging;forest loss","إزالة الغابات;قطع الأشجار;الغابات",Environment,البيئة,5
+Biodiversity Loss,فقدان التنوع البيولوجي,"biodiversity;species;wildlife;ecosystem","تنوع بيولوجي;أنواع;حياة برية;نظام بيئي",Environment,البيئة,4
+Air Pollution,تلوث الهواء,"smog;air quality;pm2.5;air pollution","تلوث الهواء;جودة الهواء;ضباب دخاني",Environment,البيئة,4
+Water Pollution,تلوث المياه,"water pollution;oil spill;contaminated water","تلوث المياه;تسرب نفطي;مياه ملوثة",Environment,البيئة,4
+Drought,الجفاف,"drought;dry season;water shortage","جفاف;شح المياه;موسم جاف",Environment,البيئة,5
+Heatwave,موجة حر,"heatwave;extreme heat;high temperature","موجة حر;حر شديد;درجات حرارة مرتفعة",Climate,المناخ,4
+Tsunami,تسونامي,"tsunami;tidal wave","تسونامي;موجة مد عاتية",Disaster,الكوارث,5
+Landslide,انهيار أرضي,"landslide;mudslide;rockslide","انهيار أرضي;انهيار طيني;انهيار صخري",Disaster,الكوارث,4
+Migration,الهجرة,"migration;refugee;displaced;asylum","هجرة;لاجئون;نازحون;لجوء",Society,المجتمع,4
+Disease Outbreak,تفشي الأمراض,"disease;outbreak;infection;contagious;health alert","تفشي;مرض;عدوى;إنذار صحي",Health,الصحة,5
+Water Infrastructure Failure,فشل البنية التحتية للمياه,"pipe burst;water network;water supply;water infrastructure","شبكة المياه;انقطاع المياه;أنابيب المياه",Infrastructure,البنية التحتية,4
+Power Grid Failure,انهيار شبكة الكهرباء,"power grid;grid failure;power outage;electric grid","شبكة الكهرباء;انقطاع الكهرباء;عطل الشبكة",Energy,الطاقة,5
+Fuel Shortage,نقص الوقود,"fuel shortage;fuel crisis;diesel shortage;petrol shortage","نقص الوقود;أزمة الوقود;البنزين;الديزل",Energy,الطاقة,4
+Inflation,التضخم,"inflation;consumer prices;cpi;price increase","تضخم;ارتفاع الأسعار;غلاء المعيشة",Economy,الاقتصاد,4
+Poverty,الفقر,"poverty;poor households;low income;social assistance","فقر;دخل منخفض;مساعدات اجتماعية",Society,المجتمع,4
+Corruption,الفساد,"corruption;bribery;fraud;embezzlement","فساد;رشوة;اختلاس;احتيال",Governance,الحوكمة,4
+Waterborne Diseases,الأمراض المنقولة بالمياه,"cholera;contaminated water;waterborne disease","كوليرا;مياه ملوثة;أمراض المياه",Health,الصحة,5
+Desertification,التصحر,"desertification;soil degradation;land degradation","تصحر;تدهور التربة;تدهور الأراضي",Environment,البيئة,5
+Marine Pollution,التلوث البحري,"marine pollution;oil spill;ocean pollution","تلوث بحري;تسرب نفطي;تلوث المحيطات",Environment,البيئة,4
+Food Price Crisis,أزمة أسعار الغذاء,"food prices;grain prices;food inflation","أسعار الغذاء;أسعار الحبوب;تضخم الغذاء",Economy,الاقتصاد,4
+Supply Chain Disruption,اضطراب سلاسل الإمداد,"supply chain;logistics disruption;shipping delays","سلسلة الإمداد;اضطراب لوجستي;تأخير الشحن",Economy,الاقتصاد,4
+Oil Spill,التسرب النفطي,"oil spill;crude oil;marine oil","تسرب نفطي;نفط خام;بقعة نفطية",Environment,البيئة,5
+Water Conflict,نزاعات المياه,"water dispute;river dispute;dam conflict","نزاع المياه;نزاع الأنهار;نزاع السدود",Water,المياه,5
+Civil War,الحرب الأهلية,"civil war;armed conflict;militia","حرب أهلية;نزاع مسلح;ميليشيات",Security,الأمن,5
+Terrorism,الإرهاب,"terrorism;terrorist;bomb attack;explosion","إرهاب;هجوم إرهابي;تفجير",Security,الأمن,5
+Cyber Attack,هجوم إلكتروني,"cyber attack;data breach;hacked;ransomware","هجوم إلكتروني;اختراق;برمجيات الفدية",Technology,التكنولوجيا,5
+Financial Crisis,الأزمة المالية,"bank collapse;financial crisis;stock market","أزمة مالية;انهيار بنك;البورصة",Economy,الاقتصاد,5
+Banking Crisis,أزمة مصرفية,"banking crisis;bank failure;liquidity","أزمة مصرفية;إفلاس بنك;سيولة",Economy,الاقتصاد,4
+Influenza,الإنفلونزا,"influenza;flu;avian flu","إنفلونزا;إنفلونزا الطيور",Health,الصحة,3
+Heat Stress,الإجهاد الحراري,"heat stress;heat illness","إجهاد حراري;ضربة شمس",Health,الصحة,3
+Water Quality,تدهور جودة المياه,"unsafe water;water quality;contaminated water","جودة المياه;مياه غير صالحة;مياه ملوثة",Water,المياه,4
+Snow Storm,عاصفة ثلجية,"snow storm;blizzard","عاصفة ثلجية;عاصفة جليدية",Climate,المناخ,3
+Extreme Cold,موجة برد,"cold wave;freezing temperature","موجة برد;تجمد",Climate,المناخ,3
+Extreme Heat,موجة حر شديدة,"extreme heat;record temperature","حر شديد;درجة حرارة قياسية",Climate,المناخ,4
+Dust Storm,عاصفة رملية,"dust storm;sandstorm","عاصفة رملية;عاصفة غبار",Climate,المناخ,3
+Locust Invasion,غزو الجراد,"locust;desert locust","جراد;الجراد الصحراوي",Agriculture,الزراعة,4
+Crop Failure,فشل المحاصيل,"crop failure;harvest failure","فشل المحاصيل;تلف المحاصيل",Agriculture,الزراعة,4
+Water Demand,ارتفاع الطلب على المياه,"water demand;water consumption","الطلب على المياه;استهلاك المياه",Water,المياه,3
+Sea Level Rise,ارتفاع مستوى البحر,"sea level rise;coastal flooding","ارتفاع مستوى البحر;غمر السواحل",Climate,المناخ,4
+Glacier Melting,ذوبان الأنهار الجليدية,"glacier melting;ice melt","ذوبان الجليد;ذوبان الأنهار الجليدية",Climate,المناخ,4
+Ocean Warming,ارتفاع حرارة المحيطات,"ocean warming;marine heatwave","ارتفاع حرارة المحيطات;موجة حر بحرية",Climate,المناخ,3
+Dam Failure,انهيار السدود,"dam failure;dam collapse","انهيار السد;انهيار السدود",Infrastructure,البنية التحتية,5
+Bridge Collapse,انهيار الجسور,"bridge collapse;bridge failure","انهيار جسر;انهيار الجسور",Infrastructure,البنية التحتية,4
+Building Collapse,انهيار المباني,"building collapse;collapsed building","انهيار مبنى;انهيار المباني",Infrastructure,البنية التحتية,4
+Infrastructure Failure,فشل البنية التحتية,"infrastructure failure;public infrastructure","فشل البنية التحتية",Infrastructure,البنية التحتية,4
+Internet Outage,انقطاع الإنترنت,"internet outage;network outage","انقطاع الإنترنت;تعطل الشبكة",Technology,التكنولوجيا,3
+Satellite Failure,تعطل الأقمار الصناعية,"satellite failure;satellite outage","تعطل الأقمار الصناعية",Technology,التكنولوجيا,3
+AI Misuse,سوء استخدام الذكاء الاصطناعي,"ai misuse;artificial intelligence abuse","سوء استخدام الذكاء الاصطناعي",Technology,التكنولوجيا,3
+Fake News,الأخبار المضللة,"fake news;misinformation;disinformation","أخبار مضللة;معلومات مضللة",Media,الإعلام,3
+Water Leakage,تسرب المياه,"water leakage;pipe leak","تسرب المياه;تسرب الأنابيب",Water,المياه,2
+Soil Erosion,تآكل التربة,"soil erosion;erosion","تآكل التربة;انجراف التربة",Environment,البيئة,3
+Illegal Fishing,الصيد غير القانوني,"illegal fishing;overfishing","الصيد غير القانوني;الصيد الجائر",Marine,البحر,3
+Overfishing,الصيد الجائر,"overfishing;fish stocks","الصيد الجائر;الثروة السمكية",Marine,البحر,3
+Plastic Pollution,التلوث البلاستيكي,"plastic pollution;plastic waste","التلوث البلاستيكي;النفايات البلاستيكية",Environment,البيئة,3
+Chemical Spill,تسرب المواد الكيميائية,"chemical spill;hazardous chemicals","تسرب كيميائي;مواد خطرة",Environment,البيئة,4
+Nuclear Accident,حادث نووي,"nuclear accident;radiation","حادث نووي;إشعاع",Energy,الطاقة,5
+Radiation Leak,تسرب إشعاعي,"radiation leak;radioactive","تسرب إشعاعي;مواد مشعة",Energy,الطاقة,5
+Mining Disaster,كارثة تعدين,"mine collapse;mining accident","كارثة منجم;انهيار منجم",Industry,الصناعة,4
+Industrial Accident,حادث صناعي,"industrial accident;factory explosion","حادث صناعي;انفجار مصنع",Industry,الصناعة,4
+Factory Explosion,انفجار مصنع,"factory explosion;plant explosion","انفجار مصنع",Industry,الصناعة,4
+Gas Leak,تسرب الغاز,"gas leak;gas explosion","تسرب الغاز;انفجار غاز",Energy,الطاقة,4
+Malnutrition,سوء التغذية,"malnutrition;undernutrition","سوء التغذية;نقص التغذية",Health,الصحة,4
+Hospital Overload,اكتظاظ المستشفيات,"hospital overload;hospital capacity","اكتظاظ المستشفيات;ضغط المستشفيات",Health,الصحة,4
+Medicine Shortage,نقص الأدوية,"medicine shortage;drug shortage","نقص الأدوية",Health,الصحة,4
+Vaccination Crisis,أزمة التلقيح,"vaccination;vaccine shortage","التلقيح;اللقاحات",Health,الصحة,3
+Mental Health Crisis,أزمة الصحة النفسية,"mental health;depression;suicide prevention","الصحة النفسية;الاكتئاب",Health,الصحة,3
+Freshwater Depletion,استنزاف المياه العذبة,"freshwater depletion;aquifer;groundwater","استنزاف المياه العذبة;المياه الجوفية;طبقات المياه",Water,المياه,5
+River Pollution,تلوث الأنهار,"river pollution;polluted river","تلوث الأنهار;نهر ملوث",Water,المياه,4
+Lake Drying,جفاف البحيرات,"lake drying;dry lake","جفاف البحيرات;بحيرة جافة",Water,المياه,4
+Coastal Erosion,تآكل السواحل,"coastal erosion;shore erosion","تآكل السواحل;تآكل الشواطئ",Environment,البيئة,4
+Coral Bleaching,ابيضاض الشعاب المرجانية,"coral bleaching;coral reef","ابيضاض الشعاب المرجانية;الشعاب المرجانية",Marine,البحر,3
+Crop Disease,أمراض المحاصيل,"crop disease;plant disease","مرض المحاصيل;أمراض النباتات",Agriculture,الزراعة,4
+Livestock Disease,أمراض الماشية,"livestock disease;cattle disease","أمراض الماشية;أمراض الأبقار",Agriculture,الزراعة,4
+Fertilizer Shortage,نقص الأسمدة,"fertilizer shortage","نقص الأسمدة",Agriculture,الزراعة,3
+Irrigation Failure,فشل الري,"irrigation failure;irrigation system","فشل الري;أنظمة الري",Agriculture,الزراعة,4
+Waterlogging,تشبع التربة بالمياه,"waterlogging","تشبع التربة بالمياه",Agriculture,الزراعة,3
+Currency Crisis,أزمة العملة,"currency crisis;currency collapse","أزمة العملة;انهيار العملة",Economy,الاقتصاد,4
+Trade Disruption,اضطراب التجارة,"trade disruption;trade restrictions","اضطراب التجارة;قيود تجارية",Economy,الاقتصاد,4
+Supply Shortage,نقص الإمدادات,"supply shortage;shortage of goods","نقص الإمدادات;نقص السلع",Economy,الاقتصاد,3
+Public Debt,ارتفاع الدين العام,"public debt;government debt","الدين العام;ديون الحكومة",Economy,الاقتصاد,3
+Bankruptcy Wave,موجة إفلاس,"bankruptcy;company collapse","إفلاس;إفلاس الشركات",Economy,الاقتصاد,3
+Border Conflict,نزاع حدودي,"border conflict;border tensions","نزاع حدودي;توتر حدودي",Security,الأمن,4
+Armed Conflict,نزاع مسلح,"armed conflict;military clash","نزاع مسلح;اشتباكات عسكرية",Security,الأمن,5
+Piracy,القرصنة البحرية,"piracy;pirates","قرصنة بحرية;قراصنة",Security,الأمن,3
+Human Trafficking,الاتجار بالبشر,"human trafficking","الاتجار بالبشر",Security,الأمن,4
+Smuggling,التهريب,"smuggling;illegal trade","تهريب;تجارة غير مشروعة",Security,الأمن,3
