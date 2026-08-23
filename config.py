@@ -1,6 +1,8 @@
-GNEWS_API_KEY = "5e38d83dbf33563262cc03b91b54f267"
-NEWS_API_KEY = "0709c54084a746fe957aff4146b7b81a"
-NASA_API_KEY = "8hGtKjU5tExKoBRFHos8H9Kzfg595Gh2wDtpYuBl"
-OPENWEATHER_API_KEY = ".."
-WHO_API_KEY = "..."
-FAO_API_KEY = "..."
+import os
+
+GNEWS_API_KEY = os.getenv("GNEWS_API_KEY", "")
+NEWS_API_KEY = os.getenv("NEWS_API_KEY", "")
+NASA_API_KEY = os.getenv("NASA_API_KEY", "")
+OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY", "")
+WHO_API_KEY = os.getenv("WHO_API_KEY", "")
+FAO_API_KEY = os.getenv("FAO_API_KEY", "")
