@@ -1,0 +1,6 @@
+.env
+.env.safe_backup
+.gitignore.safe_backup
+.venv/
+__pycache__/
+*.pyc
