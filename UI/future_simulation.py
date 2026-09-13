@@ -741,33 +741,6 @@ def create_future_chart(
 
         )
 
-    st.markdown(
-    """
-    ### Interpretation | تفسير النتائج
-
-    The adaptive solution is expected to improve this indicator over the simulation period according to the country's characteristics and implementation capacity.
-
-    من المتوقع أن يؤدي تطبيق الحل المتكيف إلى تحسين هذا المؤشر تدريجياً وفق خصائص الدولة وقدرتها على تنفيذ الحل.
-    """
-    )
-
-    st.info(
-
-    """
-    Prediction Confidence
-
-    ثقة التنبؤ
-
-    91%
-
-    The prediction is generated using the country's profile,
-    baseline indicators and adaptive solution.
-
-    تم إنشاء التوقع اعتمادًا على ملف الدولة
-    والمؤشرات الأساسية والحل المتكيف.
-    """
-    )
-
 def render_future_country():
 
     st.markdown("""
