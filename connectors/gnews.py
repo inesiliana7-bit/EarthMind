@@ -1,6 +1,5 @@
 import requests
-
-API_KEY = "5e38d83dbf33563262cc03b91b54f267"
+from config import GNEWS_API_KEY
 
 
 def get_news(country, max_articles=20):
