@@ -8,7 +8,7 @@ def get_news(country, max_articles=20):
         f"?q={country}"
         f"&lang=en"
         f"&max={max_articles}"
-        f"&apikey={API_KEY}"
+        f"&apikey={GNEWS_API_KEY}"
     )
 
     try:
@@ -48,8 +48,7 @@ def get_news(country, max_articles=20):
         print("GNews Network Error:", e)
         return []
 
-    if __name__ == "__main__":
-        news = get_news("Algeria")
-        print(news)
 
-
+if __name__ == "__main__":
+    news = get_news("Algeria")
+    print(news)

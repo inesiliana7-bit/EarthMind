@@ -1,4 +1,7 @@
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 GNEWS_API_KEY = os.getenv("GNEWS_API_KEY", "")
 NEWS_API_KEY = os.getenv("NEWS_API_KEY", "")
