@@ -1,4 +1,5 @@
 import json
+import time
 from google import genai
 from core.adaptive.compatibility_engine import CompatibilityEngine
 from core.adaptive.adaptation_explainer import AdaptationExplainer
@@ -275,10 +276,79 @@ Return ONLY valid JSON.
     ]
 }}
 """
-        response = self.client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents=prompt
-        )
+        response = None
+        max_attempts = 3
+
+        for attempt in range(max_attempts):
+            try:
+                response = self.client.models.generate_content(
+                    model="gemini-2.5-flash",
+                    contents=prompt
+                )
+                break
+            except Exception as e:
+                error_text = str(e)
+
+                if "429" in error_text or "RESOURCE_EXHAUSTED" in error_text:
+                    if attempt < max_attempts - 1:
+                        wait_seconds = 8 * (attempt + 1)
+                        print(f"Gemini quota reached. Retrying in {wait_seconds}s...")
+                        time.sleep(wait_seconds)
+                        continue
+
+                    print("Gemini quota still unavailable after retries.")
+                    return {
+                        "adaptive_solution_en": reference_solution_name,
+                        "adaptive_solution_ar": "الحل المتكيف غير متوفر حاليًا.",
+                        "estimated_success": estimated_success,
+                        "estimated_duration": estimated_duration,
+                        "budget_level_en": country_info.get("Budget_Level", "Unknown"),
+                        "budget_level_ar": "غير متوفر حاليًا",
+                        "adaptation_points_en": [
+                            {"what": "Keep the reference solution's core strategy.",
+                             "why": "The reference solution has already demonstrated successful implementation elsewhere."},
+                            {"what": "Adapt implementation to local infrastructure.",
+                             "why": "Local infrastructure determines practical deployment requirements."},
+                            {"what": "Adjust implementation to local budget constraints.",
+                             "why": "Available resources affect deployment scale and timing."},
+                            {"what": "Adapt delivery to local institutional capacity.",
+                             "why": "Implementation depends on local technical and administrative capacity."}
+                        ],
+                        "adaptation_points_ar": [
+                            {"what": "الحفاظ على الاستراتيجية الأساسية للحل المرجعي.",
+                             "why": "الحل المرجعي أثبت نجاحه في تطبيق سابق."},
+                            {"what": "تكييف التنفيذ مع البنية التحتية المحلية.",
+                             "why": "البنية التحتية المحلية تحدد متطلبات التطبيق العملية."},
+                            {"what": "تعديل التنفيذ وفق الميزانية المحلية.",
+                             "why": "الموارد المتاحة تؤثر في نطاق التنفيذ ومدته."},
+                            {"what": "تكييف التطبيق مع القدرة المؤسسية المحلية.",
+                             "why": "نجاح التنفيذ يعتمد على القدرات التقنية والإدارية المحلية."}
+                        ]
+                    }
+
+                print("Adaptive Gemini API error:", e)
+                return {
+                    "adaptive_solution_en": reference_solution_name,
+                    "adaptive_solution_ar": "الحل المتكيف غير متوفر حاليًا.",
+                    "estimated_success": estimated_success,
+                    "estimated_duration": estimated_duration,
+                    "budget_level_en": country_info.get("Budget_Level", "Unknown"),
+                    "budget_level_ar": "غير متوفر حاليًا",
+                    "adaptation_points_en": [],
+                    "adaptation_points_ar": []
+                }
+
+        if response is None:
+            return {
+                "adaptive_solution_en": reference_solution_name,
+                "adaptive_solution_ar": "الحل المتكيف غير متوفر حاليًا.",
+                "estimated_success": estimated_success,
+                "estimated_duration": estimated_duration,
+                "budget_level_en": country_info.get("Budget_Level", "Unknown"),
+                "budget_level_ar": "غير متوفر حاليًا",
+                "adaptation_points_en": [],
+                "adaptation_points_ar": []
+            }
 
         response_text = response.text.strip()
         if response_text.startswith("```json"):
