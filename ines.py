@@ -208,6 +208,20 @@ if st.button(
         analysis.get("problem", "Unknown problem")
     )
 
+    if problem == "No Problem":
+        analysis["primary_problem"] = "No Problem"
+        analysis["primary_problem_ar"] = "لا توجد مشكلة حالية"
+
+        st.session_state.analysis = analysis
+        st.session_state.analysis_completed = False
+
+        st.info(
+            "No current national problem was detected from the available evidence.\n\n"
+            "لم يتم اكتشاف مشكلة وطنية حالية استنادًا إلى الأدلة المتاحة."
+        )
+
+        st.stop()
+
     print("=" * 60)
     print("Problem from Gemini =", repr(problem))
     print("=" * 60)

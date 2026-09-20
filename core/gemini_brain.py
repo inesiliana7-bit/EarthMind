@@ -168,6 +168,159 @@ Return:
 
 data_quality
 
+IMPORTANT CURRENT-CRISIS RULE:
+
+EarthMind must NEVER invent a problem.
+
+The objective is to detect a REAL CURRENT national crisis affecting the selected country,
+based ONLY on the provided recent evidence.
+
+If the provided news and NASA/scientific observations do NOT contain sufficient evidence
+of a current national problem:
+
+- primary_problem MUST be "No Problem"
+- primary_problem_ar MUST be "لا توجد مشكلة حالية"
+- secondary_problems MUST be []
+- problem_ranking MUST be []
+- confidence MUST be 0
+- root_cause MUST be "N/A"
+- root_cause_ar MUST be "غير متوفر"
+- risk_level MUST be "Unknown"
+- news_coverage MUST be 0
+- scientific_support MUST be 0
+- impact_dimensions MUST be []
+- future_consequences MUST be ""
+- future_consequences_ar MUST be ""
+- recommendation MUST be ""
+- recommendation_ar MUST be ""
+- key_findings MUST be []
+- key_findings_ar MUST be []
+- data_quality MUST be "Insufficient"
+
+CRITICAL:
+
+If primary_problem is "No Problem":
+
+DO NOT propose any solution.
+DO NOT select a reference country.
+DO NOT estimate a success rate.
+DO NOT estimate an implementation duration.
+DO NOT use historical problems as current problems.
+DO NOT infer a crisis merely because a problem exists in Available Problems.
+DO NOT infer a crisis from a possible future risk, general trend, old event, or isolated keyword.
+
+A problem is CURRENT only when the provided evidence clearly indicates
+that the problem is actively affecting the selected country now.
+
+When evidence is insufficient, ALWAYS choose "No Problem".
+
+CITY SELECTION AND VISUAL CONTEXT:
+
+If primary_problem is NOT "No Problem":
+
+1. Identify ONE real city or clearly defined urban region
+   in the selected country that is especially relevant
+   to the detected problem.
+
+2. The city must be selected because of its real geographic,
+   climatic, environmental, urban, infrastructural, or
+   socioeconomic characteristics related to the problem.
+
+3. Do NOT select a city randomly.
+
+4. Do NOT assume that the capital city is always the correct city.
+
+5. Do NOT invent a fictional city.
+
+6. Do NOT provide a list of cities.
+   Select ONE city only.
+
+7. Create a concise CITY PROFILE for visual simulation.
+
+The CITY PROFILE must contain ONLY information that is
+visually relevant to generating a realistic image of the city.
+
+Include:
+
+- city
+- region
+- geographic_context
+- climate_context
+- terrain_context
+- water_context
+- urban_context
+- architectural_identity
+- infrastructure_context
+- visual_identity
+- visual_anchors
+- forbidden_geographic_features
+- visual_priorities
+
+VISUAL IDENTITY ANCHORS:
+
+The CITY PROFILE must also contain "visual_anchors".
+
+"visual_anchors" must contain 3 to 5 concise, real-world visual
+elements that strongly help distinguish the selected city from
+a generic city in the same country or region.
+
+Choose the anchors dynamically according to the selected city.
+
+Possible anchor types include:
+- a well-established real landmark or recognizable built feature
+- a distinctive urban form or city layout
+- a characteristic geographic feature
+- a locally distinctive architectural feature
+- a characteristic infrastructure feature
+
+IMPORTANT:
+
+- Never invent a landmark.
+- Never use an uncertain landmark as a visual anchor.
+- Never mix landmarks or architectural features from different cities.
+- Do NOT force a famous landmark if the city does not have a
+  reliably known one.
+- For smaller or less internationally known cities, prefer
+  distinctive urban, geographic, architectural, or infrastructural
+  characteristics instead of inventing a landmark.
+- Each anchor must be genuinely associated with the selected city.
+- The anchors must be visually representable in an image.
+- Keep each anchor short and concrete.
+- Use 3 to 5 anchors maximum.
+
+The purpose of visual_anchors is to make the generated image
+recognizably belong to the selected city rather than producing
+a generic city with similar climate or architecture.
+
+Keep the complete city profile concise.
+Do NOT exceed approximately 120 words in total.
+
+IMPORTANT:
+
+The city profile will be sent directly to an image-generation
+model.
+
+Therefore:
+- prioritize real-world visual characteristics
+- preserve the authentic identity of the selected city
+- describe characteristics that can actually appear in an image
+- never turn the city into a generic futuristic city
+- never replace local architecture with foreign architecture
+- never invent landmarks
+
+If primary_problem is "No Problem":
+
+- city MUST be ""
+- city_selection_reason MUST be ""
+- city_profile MUST be {{}}
+
+Return:
+
+city
+city_selection_reason
+city_profile
+
+
 Return ONLY a valid JSON object.
 
 Example:
@@ -175,6 +328,37 @@ Example:
 {{
 "primary_problem": "Wildfires",
 "primary_problem_ar": "حرائق الغابات",
+
+"city": "Bejaia",
+"city_selection_reason": "The city is relevant because of its Mediterranean climate, mountainous terrain and surrounding forested areas.",
+"city_profile": {{
+    "region": "Northern Algeria",
+    "geographic_context": "Mediterranean coastal city surrounded by mountainous terrain.",
+    "climate_context": "Mediterranean climate with hot dry summers.",
+    "terrain_context": "Mountainous and forested surroundings.",
+    "water_context": "Coastal setting with local water infrastructure.",
+    "urban_context": "Dense Algerian coastal urban fabric.",
+    "architectural_identity": "North African Mediterranean urban architecture.",
+    "infrastructure_context": "Urban roads and emergency-access infrastructure.",
+    "visual_identity": "Coastal Algerian city between mountains and sea.",
+    "visual_anchors": [
+        "Bejaia's mountainous coastal setting",
+        "Mediterranean urban coastline",
+        "dense North African coastal neighborhoods",
+        "surrounding forested mountain slopes"
+    ],
+    "forbidden_geographic_features": [
+        "Dubai-style skyline",
+        "Gulf architecture",
+        "fictional megastructures"
+    ],
+    "visual_priorities": [
+        "forested mountains",
+        "Mediterranean coastline",
+        "realistic Algerian urban environment",
+        "wildfire prevention infrastructure"
+    ]
+}},
 
 "secondary_problems": [
     "Heat Waves",
@@ -230,11 +414,15 @@ Example:
 ],
 
 "data_quality": "Excellent"
+
 }}
 
 Return ONLY a valid JSON object with these keys:
 
 primary_problem
+city
+city_selection_reason
+city_profile
 secondary_problems
 problem_ranking
 confidence
@@ -442,6 +630,30 @@ must contain plain text list items only.
                 "primary_problem",
                 "Unknown problem"
             )
+
+            result.setdefault("city", "")
+            result.setdefault("city_selection_reason", "")
+            result.setdefault("city_profile", {})
+
+            # Ensure city profile always has a valid visual anchor list
+            city_profile = result["city_profile"]
+
+            if not isinstance(city_profile, dict):
+                city_profile = {}
+                result["city_profile"] = city_profile
+
+            city_profile.setdefault("region", "")
+            city_profile.setdefault("geographic_context", "")
+            city_profile.setdefault("climate_context", "")
+            city_profile.setdefault("terrain_context", "")
+            city_profile.setdefault("water_context", "")
+            city_profile.setdefault("urban_context", "")
+            city_profile.setdefault("architectural_identity", "")
+            city_profile.setdefault("infrastructure_context", "")
+            city_profile.setdefault("visual_identity", "")
+            city_profile.setdefault("visual_anchors", [])
+            city_profile.setdefault("forbidden_geographic_features", [])
+            city_profile.setdefault("visual_priorities", [])
 
             result.setdefault(
                 "secondary_problems",

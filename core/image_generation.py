@@ -95,6 +95,11 @@ def generate_future_city_image(
         ""
     )
 
+    visual_anchors = city_data.get(
+        "visual_anchors",
+        []
+    )
+
     forbidden_features = city_data.get(
         "forbidden_geographic_features",
         []
@@ -127,249 +132,80 @@ def generate_future_city_image(
         for priority in visual_priorities
     )
 
+    visual_anchors_text = "\n".join(
+        f"- {anchor}"
+        for anchor in visual_anchors
+    )
+
 
     # =========================================================
     # EARTHMIND VISUAL SIMULATION PROMPT
     # =========================================================
 
     prompt = f"""
-You are the visual simulation engine of EarthMind.
+Create a highly realistic strategic future visualization of {city}
+in {country} after successful implementation of the following
+adaptive solution.
 
-Your task is to generate a highly realistic professional
-strategic visualization of a REAL existing city.
+CITY: {city}
+COUNTRY: {country}
+PROBLEM: {problem}
+SOLUTION: {solution}
+SECTOR: {sector}
+PROJECTED EFFECTS: {", ".join(projected_effects)}
 
-The image must show the selected city after the successful
-implementation of an adaptive solution proposed by EarthMind.
+CITY IDENTITY:
+Region: {region}
+Geography: {geographic_context}
+Climate: {climate_context}
+Terrain: {terrain_context}
+Water: {water_context}
+Urban form: {urban_context}
+Architecture: {architectural_identity}
+Infrastructure: {infrastructure_context}
+Visual identity: {visual_identity}
 
-This is NOT a generic futuristic city.
+CITY IDENTITY ANCHORS:
+{visual_anchors_text}
 
-This is NOT science fiction.
-
-This is a plausible near-future transformation of a real city.
-
-
-============================================================
-IDENTITY
-============================================================
-
-COUNTRY:
-{country}
-
-CITY:
-{city}
-
-REGION:
-{region}
-
-
-============================================================
-CURRENT CITY GEOGRAPHY
-============================================================
-
-Geographic context:
-{geographic_context}
-
-Climate:
-{climate_context}
-
-Terrain:
-{terrain_context}
-
-Water context:
-{water_context}
-
-
-============================================================
-CURRENT URBAN CHARACTER
-============================================================
-
-Urban context:
-{urban_context}
-
-Architectural identity:
-{architectural_identity}
-
-Infrastructure:
-{infrastructure_context}
-
-Visual identity:
-{visual_identity}
-
-
-============================================================
-EARTHMIND SCENARIO
-============================================================
-
-PROBLEM:
-{problem}
-
-ADAPTIVE SOLUTION:
-{solution}
-
-STRATEGIC SECTOR:
-{sector}
-
-
-PROJECTED EFFECTS:
-{effects_text}
-
-
-============================================================
-VISUAL PRIORITIES
-============================================================
-
-The following elements should be visually emphasized:
-
+VISUAL PRIORITIES:
 {visual_priorities_text}
 
-
-============================================================
-GEOGRAPHIC ACCURACY
-============================================================
-
-The city must remain geographically plausible.
-
-Preserve:
-
-- the real terrain
-- the real climate
-- the real urban density
-- the real geographic setting
-- the real architectural character
-- the real relationship between the city and surrounding landscape
-
-Do not transform the city into another geographic environment.
-
-Do not replace the city's real geography with generic futuristic
-city imagery.
-
-
-============================================================
-FORBIDDEN FEATURES
-============================================================
-
-The following elements MUST NOT appear unless they genuinely
-exist in the selected city:
-
+FORBIDDEN FEATURES:
 {forbidden_text}
 
+Show a plausible near-future transformation of the REAL existing city.
 
-============================================================
-TRANSFORMATION LOGIC
-============================================================
+Preserve the city's authentic geography, climate, terrain, urban
+density, architecture, infrastructure and local visual identity.
 
-The image should communicate:
+Use the city identity anchors as recognition anchors.
+The image must look specifically like {city}, not like a generic
+city from the same region.
 
-REAL CITY
-+
-REAL LOCAL CONDITIONS
-+
-EARTHMIND ADAPTIVE SOLUTION
-=
-PLAUSIBLE NEAR-FUTURE RESULT
+The solution must be clearly visible through its physical effects
+on the city and must improve the selected sector.
 
+The scene must look like a professional government urban-planning
+simulation or high-end architectural visualization.
 
-The transformation must be visible through realistic changes
-to infrastructure, public spaces, environmental conditions,
-resource management, buildings, transportation, water systems,
-energy systems, or other elements directly related to the
-proposed solution.
+Photorealistic, cinematic natural lighting, realistic materials,
+credible infrastructure, physically plausible development,
+high-end strategic visualization.
 
+Do NOT create a generic futuristic city.
+Do NOT change the geography.
+Do NOT replace local architecture with foreign architecture.
+Do NOT mix features from another city.
+Do NOT invent landmarks.
+Do NOT use science-fiction architecture, flying buildings,
+fantasy landmarks, megastructures, random skyscrapers,
+fictional monuments, text, captions, logos, watermarks or labels.
 
-============================================================
-IMPORTANT VISUAL RULE
-============================================================
-
-The solution must be visually obvious.
-
-Do not simply create a beautiful city.
-
-Show HOW the solution changed the city.
-
-For example, if the solution concerns water management:
-
-- intelligent water infrastructure
-- efficient water distribution
-- repaired infrastructure
-- reduced visible water waste
-- realistic monitoring systems
-- water-efficient public spaces
-- resilient water infrastructure
-
-should appear where geographically and architecturally plausible.
-
-
-============================================================
-REALISM
-============================================================
-
-Style:
-
-- photorealistic
-- high-end architectural visualization
-- professional urban planning visualization
-- realistic infrastructure
-- cinematic natural lighting
-- physically plausible materials
-- realistic proportions
-- realistic streets
-- realistic buildings
-- realistic vegetation
-- realistic atmosphere
-- sophisticated strategic simulation aesthetic
-- believable near-future development
-
-
-============================================================
-DO NOT GENERATE
-============================================================
-
-- science-fiction cities
-- flying buildings
-- impossible architecture
-- fictional landmarks
-- unrealistic megastructures
-- excessive skyscrapers
-- fantasy landscapes
-- exaggerated futuristic technology
-- artificial-looking environments
-- random futuristic city skylines
-- text
-- captions
-- labels
-- logos
-- watermarks
-
-
-============================================================
-CITY RECOGNITION
-============================================================
-
-A person familiar with {city}, {country} should be able to
-recognize the geographic and architectural character of the city.
-
-The generated image should feel like:
-
-"{city} in a plausible successful future"
-
-and NOT:
-
-"a random futuristic city."
-
-
-============================================================
-FINAL REQUIREMENT
-============================================================
-
-Generate ONE coherent photorealistic scene.
-
-Prioritize geographic accuracy, urban identity and the visible
-consequences of the EarthMind solution over futuristic aesthetics.
-
-The final result must look like a professional strategic
-future-city simulation prepared for government decision-making.
+The final image must clearly represent {city}, {country},
+and visually communicate the consequences of implementing
+the proposed solution.
 """
-
 
     # =========================================================
     # CLOUDFLARE REQUEST

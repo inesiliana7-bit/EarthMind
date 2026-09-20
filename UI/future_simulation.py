@@ -746,87 +746,338 @@ def render_future_country():
     st.markdown("""
     <div class="solution-card">
 
-        <div class="solution-title">
-        Future Country Vision | رؤية مستقبلية للدولة
-        </div>
+    <div class="solution-title">
+    Future Country Vision | رؤية مستقبلية للدولة
+    </div>
 
-        <div class="solution-text">
+    <div class="solution-text">
 
-        AI-generated visualization showing how the country may
-        look after successfully implementing the adaptive solution.
+    AI-generated visualization showing how the selected city may
+    evolve after successfully implementing the adaptive solution.
 
-        تصور مستقبلي مولد بالذكاء الاصطناعي يوضح كيف قد تصبح
-        الدولة بعد التطبيق الناجح للحل المتكيف.
+    تصور مستقبلي مولد بالذكاء الاصطناعي يوضح كيف قد تتطور
+    المدينة المختارة بعد التطبيق الناجح للحل المتكيف.
 
-        </div>
+    </div>
 
     </div>
     """, unsafe_allow_html=True)
 
-    st.info(
-        """
-The future image will be generated after the adaptive solution
-is successfully implemented.
+    # ---------------------------------------------------------
+    # Retrieve the current EarthMind decision context
+    # ---------------------------------------------------------
 
-سيتم إنشاء الصورة المستقبلية للدولة بعد تطبيق الحل المتكيف.
-"""
+    analysis = st.session_state.get("analysis", {})
+    best_solution = st.session_state.get("best_solution", {})
+    adaptive_result = st.session_state.get("adaptive_result", {})
+
+    country = analysis.get(
+        "country",
+        st.session_state.get("country", "Unknown")
     )
 
-    image_placeholder = st.empty()
+    city = (
+        analysis.get("city")
+        or best_solution.get("city")
+        or st.session_state.get("city")
+        or country
+    )
 
-    image_placeholder.markdown(
-        """
-<div style="
+    problem = (
+        analysis.get("primary_problem")
+        or analysis.get("problem")
+        or best_solution.get("problem")
+        or "Unknown problem"
+    )
 
-height:420px;
+    solution = (
+        adaptive_result.get("solution")
+        or adaptive_result.get("best_solution")
+        or best_solution.get("solution")
+        or best_solution.get("Solution")
+        or "Adaptive solution"
+    )
 
-border:2px dashed #C7D2FE;
+    sector = (
+        adaptive_result.get("sector")
+        or best_solution.get("sector")
+        or best_solution.get("Sector")
+        or "Infrastructure"
+    )
 
-border-radius:18px;
+    projected_effects = (
+        adaptive_result.get("projected_effects")
+        or adaptive_result.get("effects")
+        or best_solution.get("projected_effects")
+        or []
+    )
 
-display:flex;
+    # ---------------------------------------------------------
+    # Prevent image generation when there is no real problem
+    # ---------------------------------------------------------
 
-justify-content:center;
+    if problem == "No Problem":
 
-align-items:center;
+        st.info(
+            """
+            No current national problem was detected, so no future
+            intervention scenario is generated.
 
-font-size:20px;
+            لم يتم اكتشاف مشكلة وطنية حالية، لذلك لن يتم إنشاء
+            سيناريو مستقبلي لتدخل غير موجود.
+            """
+        )
 
-color:#64748B;
+        return
 
-background:#F8FAFC;
+    # ---------------------------------------------------------
+    # Display current scenario
+    # ---------------------------------------------------------
 
-">
+    st.markdown(
+        f"""
+        <div style="
+        background:linear-gradient(135deg,#F8FAFC,#EEF4FF);
+        border:1px solid #D8E2F0;
+        border-radius:18px;
+        padding:20px;
+        margin-top:18px;
+        margin-bottom:20px;
+        ">
 
-Future AI Visualization
+        <div style="
+        font-size:13px;
+        color:#64748B;
+        margin-bottom:6px;
+        text-transform:uppercase;
+        letter-spacing:1px;
+        ">
+        EarthMind Future Scenario
+        </div>
 
-التصور المستقبلي للدولة
+        <div style="
+        font-size:23px;
+        font-weight:700;
+        color:#0F4C81;
+        margin-bottom:12px;
+        ">
+        {city} · {country}
+        </div>
 
-</div>
-""",
-unsafe_allow_html=True)
+        <div style="
+        font-size:15px;
+        color:#334155;
+        line-height:1.7;
+        ">
+        <b>Current Problem:</b> {problem}<br>
+        <b>Adaptive Solution:</b> {solution}<br>
+        <b>Sector:</b> {sector}
+        </div>
+
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+    # ---------------------------------------------------------
+    # Generate future visualization
+    # ---------------------------------------------------------
+
+    if "future_city_image" not in st.session_state:
+        st.session_state.future_city_image = None
+
+    if st.button(
+        "Generate Future Vision | إنشاء التصور المستقبلي",
+        use_container_width=True
+    ):
+
+        try:
+
+            from core.image_generation import generate_future_city_image
+
+            # Basic city context.
+            # We intentionally keep this conservative so the AI
+            # does not receive invented geographic information.
+
+            city_profile = analysis.get("city_profile", {})
+
+            city_data = {
+                "city": city,
+
+                "region": city_profile.get(
+                    "region",
+                    ""
+                ),
+
+                "geographic_context": city_profile.get(
+                    "geographic_context",
+                    ""
+                ),
+
+                "climate_context": city_profile.get(
+                    "climate_context",
+                    ""
+                ),
+
+                "terrain_context": city_profile.get(
+                    "terrain_context",
+                    ""
+                ),
+
+                "water_context": city_profile.get(
+                    "water_context",
+                    ""
+                ),
+
+                "urban_context": city_profile.get(
+                    "urban_context",
+                    ""
+                ),
+
+                "architectural_identity": city_profile.get(
+                    "architectural_identity",
+                    ""
+                ),
+
+                "infrastructure_context": city_profile.get(
+                    "infrastructure_context",
+                    ""
+                ),
+
+                "visual_identity": city_profile.get(
+                    "visual_identity",
+                    ""
+                ),
+
+                "visual_anchors": city_profile.get(
+                    "visual_anchors",
+                    []
+                ),
+
+                "forbidden_geographic_features": city_profile.get(
+                    "forbidden_geographic_features",
+                    []
+                ),
+
+                "visual_priorities": city_profile.get(
+                    "visual_priorities",
+                    []
+                ),
+            }
+
+            with st.spinner(
+                "EarthMind is simulating the future of the selected city..."
+            ):
+
+            
+                image_bytes = generate_future_city_image(
+                    country=country,
+                    city_data=city_data,
+                    problem=problem,
+                    solution=solution,
+                    sector=sector,
+                    projected_effects=projected_effects,
+                )
+
+            if image_bytes:
+
+                st.session_state.future_city_image = image_bytes
+
+            else:
+
+                st.error(
+                    """
+                    Future visualization could not be generated.
+
+                    تعذر إنشاء التصور المستقبلي.
+                    """
+                )
+
+        except Exception as e:
+
+            st.error(
+                f"""
+                Future visualization failed.
+
+                تعذر إنشاء التصور المستقبلي.
+
+                Technical details: {e}
+                """
+            )
+
+    # ---------------------------------------------------------
+    # Display generated image
+    # ---------------------------------------------------------
+
+    if st.session_state.future_city_image:
+
+        st.markdown(
+            """
+            <div style="
+            margin-top:24px;
+            margin-bottom:10px;
+            font-size:18px;
+            font-weight:700;
+            color:#0F4C81;
+            ">
+            Simulated Future | المستقبل المُحاكى
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
+        st.image(
+            st.session_state.future_city_image,
+            use_container_width=True
+        )
+
+        st.caption(
+            """
+            AI-generated strategic visualization based on the selected
+            city, detected problem, adaptive solution and projected effects.
+
+            تصور استراتيجي مولد بالذكاء الاصطناعي استنادًا إلى المدينة
+            المختارة، المشكلة المكتشفة، الحل المتكيف والآثار المتوقعة.
+            """
+        )
+
+    else:
+
+        st.markdown(
+            """
+            <div style="
+            height:420px;
+            border:2px dashed #C7D2FE;
+            border-radius:18px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            font-size:20px;
+            color:#64748B;
+            background:#F8FAFC;
+            text-align:center;
+            ">
+            Future AI Visualization
+            <br>
+            التصور المستقبلي للدولة
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
+    # ---------------------------------------------------------
+    # Scenario indicators
+    # ---------------------------------------------------------
 
     st.markdown("---")
 
-    col1, col2, col3 = st.columns(3)
+    col1 = st.columns(1)
 
     with col1:
 
         st.metric(
-            "Expected Quality\nالجودة المتوقعة",
-            "High"
-        )
-
-    with col2:
-
-        st.metric(
-            "Prediction Horizon\nالأفق الزمني",
-            "10 Years"
-        )
-
-    with col3:
-
-        st.metric(
-            "AI Confidence\nثقة الذكاء الاصطناعي",
-            "92%"
+            "AI Visualization\nالتصور بالذكاء الاصطناعي",
+            "Generated"
+            if st.session_state.future_city_image
+            else "Not Generated"
         )
