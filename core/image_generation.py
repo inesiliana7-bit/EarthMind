@@ -142,70 +142,59 @@ def generate_future_city_image(
     # EARTHMIND VISUAL SIMULATION PROMPT
     # =========================================================
 
-    prompt = f"""
-Create a highly realistic strategic future visualization of {city}
-in {country} after successful implementation of the following
-adaptive solution.
+        # =========================================================
+    # EARTHMIND VISUAL SIMULATION PROMPT
+    # =========================================================
 
-CITY: {city}
-COUNTRY: {country}
-PROBLEM: {problem}
-SOLUTION: {solution}
-SECTOR: {sector}
-PROJECTED EFFECTS: {", ".join(projected_effects)}
+    effects_short = ", ".join(projected_effects[:4])
+
+    prompt = f"""
+Create a photorealistic future visualization of {city}, {country}.
+
+Problem: {problem}
+Solution: {solution}
+Sector: {sector}
+Effects: {effects_short}
 
 CITY IDENTITY:
 Region: {region}
 Geography: {geographic_context}
 Climate: {climate_context}
 Terrain: {terrain_context}
-Water: {water_context}
 Urban form: {urban_context}
 Architecture: {architectural_identity}
 Infrastructure: {infrastructure_context}
 Visual identity: {visual_identity}
 
-CITY IDENTITY ANCHORS:
+CITY ANCHORS:
 {visual_anchors_text}
 
-VISUAL PRIORITIES:
+PRIORITIES:
 {visual_priorities_text}
 
-FORBIDDEN FEATURES:
+FORBIDDEN:
 {forbidden_text}
 
-Show a plausible near-future transformation of the REAL existing city.
+Preserve the real geography, architecture, urban form and identity
+of {city}. The image must look specifically like {city}, not a
+generic city or another city.
 
-Preserve the city's authentic geography, climate, terrain, urban
-density, architecture, infrastructure and local visual identity.
+Show a realistic near-future transformation caused by the solution.
+Make the solution visible through physical changes in the city.
 
-Use the city identity anchors as recognition anchors.
-The image must look specifically like {city}, not like a generic
-city from the same region.
+Professional government urban-planning visualization.
+Photorealistic, realistic materials, natural lighting, credible
+infrastructure, physically plausible development.
 
-The solution must be clearly visible through its physical effects
-on the city and must improve the selected sector.
-
-The scene must look like a professional government urban-planning
-simulation or high-end architectural visualization.
-
-Photorealistic, cinematic natural lighting, realistic materials,
-credible infrastructure, physically plausible development,
-high-end strategic visualization.
-
-Do NOT create a generic futuristic city.
-Do NOT change the geography.
-Do NOT replace local architecture with foreign architecture.
-Do NOT mix features from another city.
-Do NOT invent landmarks.
-Do NOT use science-fiction architecture, flying buildings,
-fantasy landmarks, megastructures, random skyscrapers,
-fictional monuments, text, captions, logos, watermarks or labels.
-
-The final image must clearly represent {city}, {country},
-and visually communicate the consequences of implementing
-the proposed solution.
+No generic futuristic city, no foreign architecture, no mixed-city
+features, no invented landmarks, no sci-fi buildings, no flying
+buildings, no fantasy monuments, no megastructures, no random
+skyscrapers, no text, logos, captions or watermarks.
 """
+
+        # Cloudflare Flux prompt limit
+        if len(prompt) > 2000:
+            prompt = prompt[:2000].rsplit(" ", 1)[0]
 
     # =========================================================
     # CLOUDFLARE REQUEST
