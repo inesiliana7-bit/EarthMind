@@ -1069,9 +1069,7 @@ def render_future_country():
     # Scenario indicators
     # ---------------------------------------------------------
 
-    st.markdown("---")
-
-    col1 = st.columns(1)
+    col1 = st.columns(1)[0]
 
     with col1:
 
