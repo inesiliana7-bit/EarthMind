@@ -192,9 +192,9 @@ buildings, no fantasy monuments, no megastructures, no random
 skyscrapers, no text, logos, captions or watermarks.
 """
 
-        # Cloudflare Flux prompt limit
-        if len(prompt) > 2000:
-            prompt = prompt[:2000].rsplit(" ", 1)[0]
+    # Cloudflare Flux prompt limit
+    if len(prompt) > 2000:
+        prompt = prompt[:2000].rsplit(" ", 1)[0]
 
     # =========================================================
     # CLOUDFLARE REQUEST
